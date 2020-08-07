@@ -1,1 +1,1 @@
-This is the online demo of https://github.com/devonfw/my-thai-star
+This is the online demo of https://github.com/devonfw/jump-the-queue
