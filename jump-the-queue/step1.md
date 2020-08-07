@@ -1,5 +1,5 @@
 First you need to clone the Jump The Queue repository.
-Run `ggit clone https://github.com/devonfw/jump-the-queue.git`{{execute}}
+Run `git clone https://github.com/devonfw/jump-the-queue.git`{{execute}}
 
 Now you need to switch to the folder you just created.
 `cd jump-the-queue/java/jtqj`{{execute}}
