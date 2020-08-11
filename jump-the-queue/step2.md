@@ -1,10 +1,10 @@
 `echo "Run in Terminal 3"`{{execute T3}}
 
-`npm install -g @angular/cli`{{execute HOST2}}
+`npm install -g @angular/cli`{{execute Host2}}
 
  
 
-`cd jump-the-queue/angular`{{execute HOST2}}
+`cd jump-the-queue/angular`{{execute T2}}
 
  
 
