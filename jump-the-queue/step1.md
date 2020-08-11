@@ -7,10 +7,12 @@ Now you need to switch to the folder you just created.
 After that, you can install Maven.
 Run `mvn install`{{execute}}
 
-In the next step you need to swith to the server folder.
+This will take some time. Wait until you see the message "BUILD SUCCESS".
+
+In the next step you need to switch to the server folder.
 `cd server`{{execute}}
 
 Now you can start the Maven server.
 `mvn spring-boot:run`{{execute}}
 
-This will take some time and you can't use this terminal any more because it runs the server.
+You can't use this terminal any more because it runs the server.
