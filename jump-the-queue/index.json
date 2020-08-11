@@ -23,7 +23,7 @@
   },
   "environment": {
     "showide":  true,
-    "uilayout": "terminal"
+    "uilayout": "terminal-terminal"
   },
   "backend": {
     "imageid": "ubuntu:2004"
