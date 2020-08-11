@@ -1,14 +1,14 @@
 `echo "Run in Terminal 3"`{{execute T3}}
 
-`npm install -g @angular/cli`{{execute}}
+`npm install -g @angular/cli`{{execute T2}}
 
  
 
-`cd jump-the-queue/angular`{{execute}}
+`cd jump-the-queue/angular`{{execute T2}}
 
  
 
-`npm install`{{execute}}
+`npm install`{{execute T2}}
 
  
 
@@ -16,7 +16,7 @@ TODO: URL zum Service anpassen
 
  
 
-`ng serve --host 0.0.0.0 --disable-host-check`{{execute}}
+`ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
 
