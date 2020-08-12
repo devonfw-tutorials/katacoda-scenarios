@@ -6,15 +6,15 @@ Run `git clone https://github.com/devonfw/jump-the-queue.git`{{execute}}
 Now you need to switch to the folder you just created.
 `cd jump-the-queue/java/jtqj`{{execute}}
 
-After that, you can install Maven.
+After that, you hsve to install Maven.
 Run `mvn install`{{execute}}
 
 This will take some time. Wait until you see the message "BUILD SUCCESS".
 
-In the next step you need to switch to the server folder.
+In the next step switch to the server folder.
 `cd server`{{execute}}
 
 Now you can start the server.
 `mvn spring-boot:run`{{execute}}
 
-You can't use this terminal anymore because it runs the server.
+Because this terminal runs the server you can't use ist anymore.
