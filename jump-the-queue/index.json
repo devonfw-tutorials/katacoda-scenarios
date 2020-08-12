@@ -22,7 +22,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "showdashboard": true,
+    "dashboards": [{"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-4200-[[KATACODA_HOST]].environments.katacoda.com"}]
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "ubuntu:2004"
