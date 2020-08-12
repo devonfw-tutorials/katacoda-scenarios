@@ -1,3 +1,5 @@
+Okay let's start!
+
 First you need to clone the Jump The Queue repository.
 Run `git clone https://github.com/devonfw/jump-the-queue.git`{{execute}}
 
