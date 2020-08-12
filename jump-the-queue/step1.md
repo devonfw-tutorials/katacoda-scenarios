@@ -6,7 +6,7 @@ Run `git clone https://github.com/devonfw/jump-the-queue.git`{{execute}}
 Now you need to switch to the folder you just created.
 `cd jump-the-queue/java/jtqj`{{execute}}
 
-After that, you hsve to install Maven.
+After that, you have to install Maven.
 Run `mvn install`{{execute}}
 
 This will take some time. Wait until you see the message "BUILD SUCCESS".
