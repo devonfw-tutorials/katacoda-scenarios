@@ -4,18 +4,18 @@ The next step ist to install globally Angular CLI. Don't worry a second terminal
 `npm install -g @angular/cli`{{execute T2}}
 
 After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google.
-You can answer `y`{{execute T2}} or `n`{{execute T2}}
+Either choose `y`{{execute T2}} or `n`{{execute T2}}
  
-Now you need to switch to the angular folder in jump-the-queue folder.
+Now switch to the angular folder in jump-the-queue directory.
 `cd jump-the-queue/angular`{{execute T2}}
 
  
-After that you need to install the dependencies in the local folder.
+After that install the dependencies in the local folder.
 `npm install`{{execute T2}}
 
 This will take some time.
 
-In the next step you need to build the app.
+In the next step build the app.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
