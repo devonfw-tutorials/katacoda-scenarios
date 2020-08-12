@@ -1,3 +1,5 @@
+Now you want to build the app in a second terminal. In the end you can test the app.
+
 The next step ist to install globally Angular CLI:
 `npm install -g @angular/cli`{{execute T2}}
 
