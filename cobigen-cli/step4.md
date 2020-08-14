@@ -1,6 +1,6 @@
 Now you have to create the entity class which will be passed to the cobigen cli generator later.
 
-Create a new package in the core module of your project. The entity class is class is called 'CustomerEntity' so the name of the package has to be 'customermanagement/dataaccess/api/'. This is a naming convention of devon4j. You can find more about the coding conventions on https://devonfw.com/website/pages/docs/devon4j.asciidoc_coding-conventions.html.
+Create a new package in the core module of your project. The entity class is called 'CustomerEntity' so the name of the package has to be 'customermanagement/dataaccess/api/'. This is a naming convention of devon4j. You can find more about the coding conventions on https://devonfw.com/website/pages/docs/devon4j.asciidoc_coding-conventions.html.
 
 `mkdir -p core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/`{{execute}}
 

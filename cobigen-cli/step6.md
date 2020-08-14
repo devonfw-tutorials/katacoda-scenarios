@@ -10,26 +10,26 @@ Cobigen cli will ask you which files should be generated. You can type the numbe
 Switch to the IDE. CobiGen generated some new java classes and interfaces. Some of them are located in the api module of the project.
 
 (1) CRUD UD logic: Generates the logic layer and implementations for some use cases.
-- customermanagement/logic/base/usecase/AbstractCustomerUc.java
-- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/CustomerManagementImpl.java`{{open}}
-- customermanagement/logic/usecase/UcManageCustomerImpl.java
-- customermanagement/logic/usecase/UcFindCustomerImpl.java
-- customermanagement/logic/api/CustomerManagement.java
-- customermanagement/logic/api/usecase/UcFindCustomer.java
-- customermanagement/logic/api/usecase/UcManageCustomer.java
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/base/usecase/AbstractCustomerUc.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/CustomermanagementImpl.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/usecase/UcManageCustomerImpl.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/usecase/UcFindCustomerImpl.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/CustomerManagement.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcFindCustomer.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcManageCustomer.java`{{open}}
 
 (3) CRUD REST services: Generates the service layer with CRUD operations for using in REST services.
-- customermanagement/service/api/rest/CustomermanagementRestService.java (api module)
-- customermanagement/service/impl/rest/CustomermanagementRestServiceImpl.java (core module)
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/service/api/rest/CustomermanagementRestService.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/service/impl/rest/CustomermanagementRestServiceImpl.java`{{open}}
 
 (5) TO's: Generates the related Transfer Objects.
-- customermanagement/logic/api/to/CustomerEto.java
-- customermanagement/logic/api/to/CustomerSearchCriteria.java
-- general/common/api/to/AbstractSearchCriteriaTo.java
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/to/CustomerEto.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/to/CustomerSearchCriteria.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/general/common/api/to/AbstractSearchCriteriaTo.java`{{open}}
 
 (6) Entity infrastructure: Creates the entity main interface and edits (by a merge) the current entity to extend the newly generated classes.
-- customermanagement/common/api/Customer.java
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/common/api/Customer.java`{{open}}
 - `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{open}} (changed)
 
 (8) CRUD SpringData Repository: Generates the entity repository (that contains the CRUD operations) in the data access layer.
-- customermanagement/dataaccess/api/repo/CustomerRepository.java
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/repo/CustomerRepository.java`{{open}}
