@@ -12,8 +12,8 @@ Switch to the IDE. CobiGen generated some new java classes and interfaces. Some 
 (1) CRUD UD logic: Generates the logic layer and implementations for some use cases.
 - `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/base/usecase/AbstractCustomerUc.java`{{open}}
 - `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/CustomermanagementImpl.java`{{open}}
-- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcManageCustomerImpl.java`{{open}}
-- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcFindCustomerImpl.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/usecase/UcManageCustomerImpl.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/usecase/UcFindCustomerImpl.java`{{open}}
 - `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/Customermanagement.java`{{open}}
 - `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcFindCustomer.java`{{open}}
 - `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/usecase/UcManageCustomer.java`{{open}}
