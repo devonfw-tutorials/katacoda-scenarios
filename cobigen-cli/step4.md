@@ -1,14 +1,10 @@
 Now you have to create the entity class which will be passed to the cobigen cli generator later.
 
-Create a new package in the core module of your project. The entity class is class is called 'CustomerEntity' so the name of the package has to be 'customermanagement/dataaccess/api/'
+Create a new package in the core module of your project. The entity class is class is called 'CustomerEntity' so the name of the package has to be 'customermanagement/dataaccess/api/'. This is a naming convention of devon4j. You can find more about the coding conventions on https://devonfw.com/website/pages/docs/devon4j.asciidoc_coding-conventions.html.
 
-`mkdir core/src/main/java/com/example/application/cobigenexample/customermanagement/`{{execute}}
+`mkdir -p core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/`{{execute}}
 
-`mkdir core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/`{{execute}}
-
-`mkdir core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/`{{execute}}
-
-Inside this package create a new java class called 'CustomerEntity.java'. Switch to the ide and click 'Copy to Editor' in the following java class.
+Switch to the IDE and click 'Copy to Editor' in the following java class. The java file will be created automatically inside the newly created package.
 
 <pre class="file" data-filename="devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java">
 package com.example.application.cobigenexample.customermanagement.dataaccess.api;

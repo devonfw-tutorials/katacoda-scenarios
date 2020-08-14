@@ -1,4 +1,3 @@
-
 To use the cobigen cli you first have to install the devonfw ide. You will find more information about devonfw on https://devonfw.com/website/pages/welcome/welcome.html.
 
 ## devonfw setup
@@ -16,11 +15,12 @@ To install devonfw execute the following commands. More information about settin
 `bash setup`{{execute}}
 
 
+The installtion process may take a while.
 
 The installation routine will ask you for a settings url. You can continue with the default settings by pressing return.
 
-Accept the licence agreements by typing 'yes',
+Accept the licence agreements.
+`yes`{{execute}}
 
-The question if you want to share anonymous data with the Angular Team can be answered with 'N'.
-
-The installtion process may take a while.
+You can negate the question, if you want to share anonymous data with the Angular Team.
+`N`{{execute}}

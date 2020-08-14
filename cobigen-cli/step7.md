@@ -1,6 +1,6 @@
-Now let us change some code in your entity class.
+Now let us change some code in the entity class.
 
-Add a new property in in CustomerEntity.class.
+Add a new property in the CustomerEntity.java file.
 <pre class="file">
 private String company;
 </pre>
@@ -24,13 +24,10 @@ Go back to the terminal an navigate to the root folder of the project.
 Compile the project.
 `devon mvn compile`{{execute}}
 
-Navigate to your entity class.
-`cd core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/`{{execute}}
-
 And start cobigen cli again.
-`devon cobigen generate CustomerEntity.java`{{execute}}
+`devon cobigen generate core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{execute}}
 
 `1,3,5,6,8`{{execute}}
 
 
-Switch back to the ide. You can see that cobigen added code in some of the generated files. Open the file Customer.java which is located in the api module in the package 'customermanagement/common/api/'. You can see cobigen added the new getter and setter methods for the new 'company' property.
+Switch back to the IDE. You can see that cobigen added code in some of the generated files. Open the Customer.java file which is located in the api module of the project in the package 'customermanagement/common/api/'. You can see cobigen added the new getter and setter methods for the new 'company' property.
