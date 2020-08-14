@@ -31,3 +31,10 @@ And start cobigen cli again.
 
 
 Switch back to the IDE. You can see that cobigen added code in some of the generated files. Open the Customer.java file which is located in the api module of the project in the package 'customermanagement/common/api/'. You can see cobigen added the new getter and setter methods for the new 'company' property.
+
+The following files should have changed:
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/to/CustomerEto.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/logic/api/to/CustomerSearchCriteriaTo.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/api/src/main/java/com/example/application/cobigenexample/customermanagement/common/api/Customer.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{open}}
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/repo/CustomerRepository.java`{{open}}
