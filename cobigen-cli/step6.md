@@ -11,7 +11,7 @@ Switch to the IDE. CobiGen generated some new java classes and interfaces. Some 
 
 (1) CRUD UD logic: Generates the logic layer and implementations for some use cases.
 - customermanagement/logic/base/usecase/AbstractCustomerUc.java
-- customermanagement/logic/impl/CustomerManagementImpl.java
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/logic/impl/CustomerManagementImpl.java`{{open}}
 - customermanagement/logic/usecase/UcManageCustomerImpl.java
 - customermanagement/logic/usecase/UcFindCustomerImpl.java
 - customermanagement/logic/api/CustomerManagement.java
@@ -29,7 +29,7 @@ Switch to the IDE. CobiGen generated some new java classes and interfaces. Some 
 
 (6) Entity infrastructure: Creates the entity main interface and edits (by a merge) the current entity to extend the newly generated classes.
 - customermanagement/common/api/Customer.java
-- devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java{{open}} (changed)
+- `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{open}} (changed)
 
 (8) CRUD SpringData Repository: Generates the entity repository (that contains the CRUD operations) in the data access layer.
 - customermanagement/dataaccess/api/repo/CustomerRepository.java
