@@ -17,7 +17,7 @@ After that install the dependencies in the local folder.
 
 This will take some time.
 
-In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and open
+In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
 `jump-the-queue/angular/src/environments/environment.ts`{{open}}
 
 Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/jumpthequeue/services/rest`{{copy}}
