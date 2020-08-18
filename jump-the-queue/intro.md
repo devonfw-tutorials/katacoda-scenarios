@@ -8,6 +8,10 @@ In the second step you will build and use the app.
 
  
 
-You can find the source code and documentation for the "Jump The Queue" tutorial application here:
+You can find the source code for the "Jump The Queue" tutorial application here:
 
 https://github.com/devonfw/jump-the-queue
+
+And you can find the documentation here:
+
+https://github.com/devonfw/jump-the-queue/wiki
