@@ -1,4 +1,5 @@
 Now you want to build the app in a second terminal. After all you can test the app.
+To open a second terminal click on the plus sign. A drop-down list will open and you click on "Open New Terminal".  
 
 The next step is to install globally Angular CLI. Don't worry a second terminal will open when you execute the command.
 `npm install -g @angular/cli`{{execute T2}}
