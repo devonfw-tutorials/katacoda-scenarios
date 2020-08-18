@@ -17,6 +17,8 @@ After that install the dependencies in the local folder.
 
 This will take some time.
 
+`jump-the-queue/angular/src/evironments/environment.ts`{{open}}
+
 In the next step you need to change the Base URL for the REST Services. Run
 `vim src/environments/environment.ts`{{execute T2}}
 
