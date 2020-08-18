@@ -1,4 +1,5 @@
 Now you want to build the app in a second terminal. After all you can test the app.
+
 To open a second terminal click on the plus sign. A drop-down list will open and you click on "Open New Terminal".  
 
 The next step is to install globally Angular CLI. Don't worry a second terminal will open when you execute the command.
@@ -16,7 +17,18 @@ After that install the dependencies in the local folder.
 
 This will take some time.
 
-In the next step build and start the app.
+In the next step you need to change the Base URL for the REST Services. Run
+`vim angular/src/environments/environment.ts` {{execute T2 no-newline}}
+
+Switch to the insert mode by typing `i`{{execute T2}}
+
+Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/jumpthequeue/services/rest`{{copy}}
+
+Once finished, press ESC `^ESC`{{execute ctrl-seq}} to switch back to normal mode.
+
+To safe and quit, press `:wq`{{execute}} 
+
+Last but not least you need to build and start the app.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
