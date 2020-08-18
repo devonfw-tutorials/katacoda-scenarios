@@ -18,6 +18,26 @@ After that install the dependencies in the local folder.
 This will take some time.
 
 `jump-the-queue/angular/src/environments/environment.ts`{{open}}
+<pre class="file" data-filename="jump-the-queue/angular/src/environments/environment.ts">
+// This file can be replaced during build by using the `fileReplacements` array.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
+// The list of file replacements can be found in `angular.json`.
+
+export const environment: {production: boolean, baseUrlRestServices: string} = {
+  production: false,
+  baseUrlRestServices: 'https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/1/jumpthequeue/services/rest'
+};
+
+/*
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
+ */
+// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+</pre>
+
 
 In the next step you need to change the Base URL for the REST Services. Run
 `vim src/environments/environment.ts`{{execute T2}}
