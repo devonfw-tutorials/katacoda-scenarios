@@ -18,9 +18,9 @@ After that install the dependencies in the local folder.
 This will take some time.
 
 In the next step you need to change the Base URL for the REST Services. Run
-`vim angular/src/environments/environment.ts` {{execute T2 no-newline}}
+`vim angular/src/environments/environment.ts` {{execute T2}}
 
-Switch to the insert mode by typing `i`{{execute T2}}
+Switch to the insert mode by typing `i`{{execute no-newline}}
 
 Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/jumpthequeue/services/rest`{{copy}}
 
