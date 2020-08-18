@@ -7,7 +7,7 @@ Now you need to switch to the folder you just created.
 `cd jump-the-queue/java/jtqj`{{execute}}
 
 After that, you have to install Maven.
-Run `mvn install`{{execute}}
+Run `mvn install -Dmaven.test.skip=true`{{execute}}
 
 This will take some time. Wait until you see the message "BUILD SUCCESS".
 
