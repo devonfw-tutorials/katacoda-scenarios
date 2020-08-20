@@ -1,4 +1,4 @@
-In this scenario you will use "Jump The Queue" for the first time. 
+In this scenario you will use "My Thai Star" for the first time. 
 
 The first step is to start the server. 
 
@@ -8,7 +8,7 @@ In the second step you will build and use the app.
 
  
 
-You can find the source code for the "Jump The Queue" tutorial application here:
+You can find the source code for the "My Thai Star" tutorial application here:
 
 https://github.com/devonfw/jump-the-queue
 
