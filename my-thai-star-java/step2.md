@@ -24,7 +24,8 @@ This will take some time.
 In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
 `my-thai-star/angular/src/app/core/config/config.ts`{{open}}
 
-Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/services/rest`{{copy}}
+Now change the restPathRoot to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar`{{copy}}
+And restServiceRoot to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/services/rest`{{copy}}
 
 
 Last but not least switch back to terminal 2. Now you build and start the app.
