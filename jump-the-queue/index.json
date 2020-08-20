@@ -1,8 +1,8 @@
 {
-  "title": "Try My Thai Star",
-  "description": "This will let you try My Thai Star online.",
+  "title": "Try Jump The Queue",
+  "description": "This will let you try Jump The Queue online.",
   "difficulty": "Beginner",
-  "time": "15 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
@@ -22,6 +22,7 @@
     }
   },
   "environment": {
+    "showide": true,
     "uilayout": "terminal"
   },
   "backend": {
