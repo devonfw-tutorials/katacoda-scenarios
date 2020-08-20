@@ -4,4 +4,4 @@ You finished the My Thai Star - Java Tutorial.
 
 For further informations please visit the documentation: 
 
-https://github.com/devonfw/jump-the-queue/wiki
+https://devonfw.com/website/pages/docs/getting-started.asciidoc_guides.html#guide-sample-application.asciidoc
