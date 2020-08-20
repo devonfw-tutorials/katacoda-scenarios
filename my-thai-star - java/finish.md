@@ -1,6 +1,6 @@
 Congratulations! 
 
-You finished the first Jump The Queue Tutorial.
+You finished the My Thai Star - Java Tutorial.
 
 For further informations please visit the documentation: 
 
