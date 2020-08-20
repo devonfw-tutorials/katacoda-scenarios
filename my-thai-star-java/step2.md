@@ -22,7 +22,7 @@ Either choose `y`{{execute T2}} or `n`{{execute T2}}
 This will take some time.
 
 In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
-`my-thai-star/angular/src/environments/environment.ts`{{open}}
+`my-thai-star/angular/src/app/core/conifg/config.ts`{{open}}
 
 Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/services/rest`{{copy}}
 
