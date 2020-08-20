@@ -9,7 +9,7 @@ After a while you will be asked if you like to share anonymous usage data with t
 Either choose `y`{{execute T2}} or `n`{{execute T2}}
  
 Now switch to the angular folder in jump-the-queue directory.
-`cd jump-the-queue/angular`{{execute T2}}
+`cd my-thai-star/angular`{{execute T2}}
 
  
 After that install the dependencies in the local folder.
@@ -18,9 +18,9 @@ After that install the dependencies in the local folder.
 This will take some time.
 
 In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
-`jump-the-queue/angular/src/environments/environment.ts`{{open}}
+`my-thai-star/angular/src/environments/environment.ts`{{open}}
 
-Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/jumpthequeue/services/rest`{{copy}}
+Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/services/rest`{{copy}}
 
 
 Last but not least switch back to terminal 2. Now you build and start the app.
