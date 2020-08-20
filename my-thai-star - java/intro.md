@@ -8,10 +8,6 @@ In the second step you will build and use the app.
 
  
 
-You can find the source code for the "My Thai Star" tutorial application here:
+You can find the documentation for the "My Thai Star" tutorial application here:
 
-https://github.com/devonfw/jump-the-queue
-
-And you can find the documentation here:
-
-https://github.com/devonfw/jump-the-queue/wiki
+https://devonfw.com/website/pages/docs/getting-started.asciidoc_guides.html#guide-sample-application.asciidoc
