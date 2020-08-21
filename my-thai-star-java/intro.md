@@ -4,6 +4,8 @@ The first step is to start the server.
 
 In the second step you will build and use the app.
 
+!! Please remember this is only a development setup and not for productive usage! !!
+
 
 
  
