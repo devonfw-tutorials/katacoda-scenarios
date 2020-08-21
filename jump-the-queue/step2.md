@@ -17,6 +17,8 @@ After that install the dependencies in the local folder.
 
 This will take some time.
 
+The following two steps are only needed in this tutorial. Normally you can simply execute "ng serve", open the https://localhost:4200/ and start using the app.
+
 In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
 `jump-the-queue/angular/src/environments/environment.ts`{{open}}
 
@@ -27,7 +29,7 @@ Last but not least switch back to terminal 2. Now you build and start the app.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
-Wait until you see the message "Compiled successfully".
+Wait until you see the message "Compiled successfully". 
  
 Now you can open the following link to use Jump The Queue. 
 Because the app is designed for mobil devices it is recommended to resize your browser window. 
