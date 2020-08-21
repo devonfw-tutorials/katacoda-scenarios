@@ -29,7 +29,7 @@ Last but not least switch back to terminal 2. Now you build and start the app.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
-Wait until you see the message "Compiled successfully".
+Wait until you see the message "Compiled successfully". 
  
 Now you can open the following link to use Jump The Queue. 
 Because the app is designed for mobil devices it is recommended to resize your browser window. 
