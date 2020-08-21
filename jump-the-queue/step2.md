@@ -17,6 +17,8 @@ After that install the dependencies in the local folder.
 
 This will take some time.
 
+The following two steps are only needed in this tutorial. On your own terminal you can simply execute "ng serve", open the https://localhost:4200/ and start using the app.
+
 In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open
 `jump-the-queue/angular/src/environments/environment.ts`{{open}}
 
