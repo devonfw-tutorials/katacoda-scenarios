@@ -14,7 +14,7 @@ Now switch to the angular folder in jump-the-queue directory.
  
 After that install the dependencies in the local folder.
 `npm install`{{execute T2}}
-
+ 
 
 After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google.
 Either choose `y`{{execute T2}} or `n`{{execute T2}}
