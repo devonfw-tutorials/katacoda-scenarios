@@ -6,7 +6,7 @@
 
 `service nginx start`{{execute}}
 
-`servoce nginx status`{{execute}}
+`service nginx status`{{execute}}
 
 `nano /etc/nginx/sites-available/default`{{execute}}
 
