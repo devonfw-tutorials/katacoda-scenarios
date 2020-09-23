@@ -1,34 +1,34 @@
-apt-get update{{execute}}
+`apt-get update`{{execute}}
 
-apt-get install nginx{{execute}}
+`apt-get install nginx`{{execute}}
 
-y{{execute}}
+`y`{{execute}}
 
-service nginx start{{execute}}
+`service nginx start`{{execute}}
 
-servoce nginx status{{execute}}
+`servoce nginx status`{{execute}}
 
-nano /etc/nginx/sites-available/default
+`nano /etc/nginx/sites-available/default`{{execute}}
 
 add:
-        proxy_pass         http://localhost:8081;
+        `proxy_pass         http://localhost:8081;
         proxy_http_version 1.1;
         proxy_set_header   Upgrade $http_upgrade;
         proxy_set_header   Connection keep-alive;
         proxy_set_header   Host $host;
         proxy_cache_bypass $http_upgrade;
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header   X-Forwarded-Proto $scheme;{{copy}}
+        proxy_set_header   X-Forwarded-Proto $scheme;`{{copy}}
 
-cd /var/www{{execute}}
+`cd /var/www`{{execute}}
 
-mkdir myThaiStar{{execute}}
+`mkdir myThaiStar`{{execute}}
 
-cd{{execute}}
+`cd`{{execute}}
 
-nano /etc/systemd/system/mythaistar.service{{execute}}
+`nano /etc/systemd/system/mythaistar.service`{{execute}}
 
-[Unit]
+`[Unit]
 Description=My Thai Star Web App 
 
 [Service]
@@ -41,12 +41,12 @@ SyslogIdentifier=myThaiStar
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
-WantedBy=multi-user.target{{copy}}
+WantedBy=multi-user.target`{{copy}}
 
-systemctl enable mythaistar.service{{execute}}
+`systemctl enable mythaistar.service`{{execute}}
 
-cd my-thai-star/net/netcore/OASP4Net.Application.WebApi{{execute}}
+`cd my-thai-star/net/netcore/OASP4Net.Application.WebApi`{{execute}}
 
-dotnet publish -c release -o /var/www/myThaiStar{{execute}}
+`dotnet publish -c release -o /var/www/myThaiStar`{{execute}}
 
-systemctl start mythaistar.service{{execute}}
+`systemctl start mythaistar.service`{{execute}}
