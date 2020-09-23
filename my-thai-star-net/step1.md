@@ -1,6 +1,6 @@
 Okay let's start!
 
-First you need to clone the My Thai Star repository. Run git clone `https://github.com/devonfw/my-thai-star.git`{{execute}}
+First you need to clone the My Thai Star repository. Run `git clone https://github.com/devonfw/my-thai-star.git`{{execute}}
 
 First you need to install dotnet 2.1.
 
