@@ -1,25 +1,52 @@
-Now you want to build the app in a second terminal. After all you can test the app.
+apt-get update{{execute}}
 
-To open a second terminal click on the plus sign. A drop-down list will open and you click on "Open New Terminal".
+apt-get install nginx{{execute}}
 
-The next step is to install globally Angular CLI. Don't worry a second terminal will open when you execute the command. npm install -g @angular/cli{{execute T2}}
+y{{execute}}
 
-After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google. Either choose y{{execute T2}} or n{{execute T2}}
+service nginx start{{execute}}
 
-Now switch to the angular folder in jump-the-queue directory. cd my-thai-star/angular{{execute T2}}
+servoce nginx status{{execute}}
 
-After that install the dependencies in the local folder. npm install{{execute T2}}
+nano /etc/nginx/sites-available/default
 
-After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google. Either choose y{{execute T2}} or n{{execute T2}}
+add:
+        proxy_pass         http://localhost:8081;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;{{copy}}
 
-This will take some time.
+cd /var/www{{execute}}
 
-In the next step you need to change the Base URL for the REST Services. Open the IDE, wait until it is fully loaded and then open my-thai-star/angular/src/app/core/config/config.ts{{open}}
+mkdir myThaiStar{{execute}}
 
-Now change the restPathRoot to https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/{{copy}} And restServiceRoot to https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/mythaistar/services/rest/{{copy}}
+cd{{execute}}
 
-Last but not least switch back to terminal 2. Now you build and start the app. ng serve --host 0.0.0.0 --disable-host-check{{execute T2}}
+nano /etc/systemd/system/mythaistar.service{{execute}}
 
-Wait until you see the message "Compiled successfully".
+[Unit]
+Description=My Thai Star Web App 
 
-Now you can open the following link to use My Thai Star. https://[[HOST_SUBDOMAIN]]-4200-[[KATACODA_HOST]].environments.katacoda.com/
+[Service]
+WorkingDirectory=/var/www/myThaiStar
+ExecStart=/usr/bin/dotnet /var/www/myThaiStar/myThaiStar.dll
+Restart=always
+# Restart service after 10 seconds if the dotnet service crashes:
+RestartSec=10
+SyslogIdentifier=myThaiStar
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target{{copy}}
+
+systemctl enable mythaistar.service{{execute}}
+
+cd my-thai-star/net/netcore/OASP4Net.Application.WebApi{{execute}}
+
+dotnet publish -c release -o /var/www/myThaiStar{{execute}}
+
+systemctl start mythaistar.service{{execute}}
