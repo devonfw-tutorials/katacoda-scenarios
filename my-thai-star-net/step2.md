@@ -35,7 +35,7 @@ Description=My Thai Star Web App
 WorkingDirectory=/var/www/myThaiStar
 ExecStart=/usr/bin/dotnet /var/www/myThaiStar/myThaiStar.dll
 Restart=always
-# Restart service after 10 seconds if the dotnet service crashes:
+#Restart service after 10 seconds if the dotnet service crashes:
 RestartSec=10
 SyslogIdentifier=myThaiStar
 Environment=ASPNETCORE_ENVIRONMENT=Production
