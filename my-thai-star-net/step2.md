@@ -49,4 +49,4 @@ WantedBy=multi-user.target `{{copy}}
 
 `dotnet publish -c release -o /var/www/myThaiStar`{{execute}}
 
-`systemctl start mythaistar.service`{{execute}}
+`env DOTNET_CLI_HOME=/root systemctl start mythaistar.service`{{execute}}
