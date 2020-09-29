@@ -28,7 +28,7 @@ add:
 
 `nano /etc/systemd/system/mythaistar.service`{{execute}}
 
-`[Unit]
+` [Unit]
 Description=My Thai Star Web App 
 
 [Service]
@@ -41,7 +41,7 @@ SyslogIdentifier=myThaiStar
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
-WantedBy=multi-user.target`{{copy}}
+WantedBy=multi-user.target `{{copy}}
 
 `systemctl enable mythaistar.service`{{execute}}
 
