@@ -28,7 +28,7 @@ add:
 
 `nano /etc/systemd/system/mythaistar.service`{{execute}}
 
-` [Unit]
+`\[Unit\]
 Description=My Thai Star Web App 
 
 [Service]
