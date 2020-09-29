@@ -11,14 +11,14 @@
 `nano /etc/nginx/sites-available/default`{{execute}}
 
 add:
-        `proxy_pass         http://localhost:8081;
-        proxy_http_version 1.1;
-        proxy_set_header   Upgrade $http_upgrade;
-        proxy_set_header   Connection keep-alive;
-        proxy_set_header   Host $host;
-        proxy_cache_bypass $http_upgrade;
-        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
-        proxy_set_header   X-Forwarded-Proto $scheme;`{{copy}}
+`        proxy_pass         http://localhost:8081;
+          proxy_http_version 1.1;
+          proxy_set_header   Upgrade $http_upgrade;
+          proxy_set_header   Connection keep-alive;
+          proxy_set_header   Host $host;
+          proxy_cache_bypass $http_upgrade;
+          proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header   X-Forwarded-Proto $scheme;`{{copy}}
 
 `cd /var/www`{{execute}}
 
@@ -27,8 +27,8 @@ add:
 `cd`{{execute}}
 
 `nano /etc/systemd/system/mythaistar.service`{{execute}}
-
-`[Unit]
+<pre class="file" data-filename="/etc/systemd/system/mythaistar.service">
+[Unit]
 Description=My Thai Star Web App 
 
 [Service]
@@ -41,7 +41,8 @@ SyslogIdentifier=myThaiStar
 Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
-WantedBy=multi-user.target`{{copy}}
+WantedBy=multi-user.target
+<\pre>
 
 `systemctl enable mythaistar.service`{{execute}}
 
