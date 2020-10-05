@@ -1,6 +1,6 @@
 Okay let's start!
 
-First you need to clone the Jump The Queue repository.
+First you need to clone the My-Thai-Star repository.
 Run `git clone https://github.com/devonfw/my-thai-star.git`{{execute}}
 
 Now you need to switch to the folder you just created.
