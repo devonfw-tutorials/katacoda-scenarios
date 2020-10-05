@@ -21,6 +21,3 @@ The installation routine will ask you for a settings url. If you don't have a pr
 
 Accept the licence agreements.
 `yes`{{execute}}
-
-You can negate the question, if you want to share anonymous data with the Angular Team.
-`N`{{execute}}
