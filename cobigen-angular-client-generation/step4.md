@@ -34,7 +34,7 @@ export const environment = {
 Switch back to the second terminal to compile the angular app and run the frontend server.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
-You can check out the application by opening the following link:
+Check out the application. Open the 'Application' tab or click on the following link to open the application in a new browser tab.
 https://[[HOST_SUBDOMAIN]]-4200-[[KATACODA_HOST]].environments.katacoda.com/
 
 Login with username 'admin' and password 'admin'.
