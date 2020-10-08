@@ -31,7 +31,7 @@ export const environment = {
 };
 </pre>
 
-Switch back to the second terminal to compile the angular app and run the frontend server.
+Switch back to the second terminal to compile the angular app and run the frontend server. This process may take some time.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
 Check out the application. Open the 'Application' tab or click on the following link to open the application in a new browser tab.

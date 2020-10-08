@@ -5,7 +5,11 @@ Open the 'app-routing.module.ts file in the IDE.
 
 This file configures which modules should be loaded when the user navigates to a specific URL inside the application.
 
-To display the employee data inside the newly created section of the application we have to change the children object of home like it is shown in the following code snippet.
+To display the employee data inside the newly created section of the application we have to change the children object of the 'home' section.
+
+CobiGen has already created the home section for us (starting at line 40). But a home section has already existed before, and this section is used. In order to use the routes that CobiGen generated for us you have to modify the first home section starting at line 17.
+
+Replace the content of the 'children'-object of this section with the code from the second home section. You can copy the code by clicking on the following text.
 
 ```
     children: [{
@@ -23,11 +27,7 @@ To display the employee data inside the newly created section of the application
                 )
         }
     ]
-```
-
-CobiGen has already created the home section for us (starting at line 40). But a home section has already existed before, and this section is used. In order to use the routes that CobiGen generated for us you have to modify the first home section starting at line 17.
-
-Copy the 'children'-object from the second home section and replace the content from the first section.
+```{{copy}}
 
 The path attribute defines the URL the user navigates to. And the loadChildren method defines which module should be loaded when the user navigates to the URL.
 
