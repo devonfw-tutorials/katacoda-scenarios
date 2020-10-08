@@ -16,8 +16,8 @@ To install devonfw execute the following commands. More information about settin
 
 The installation process may take a while.
 
-The installation routine will ask you for a settings url. If you don't have a project specific settings, you can continue by pressing Enter, but let's continue with our tutorial specific URL:
+The installation routine will ask you for a settings url. If you don't have a project specific setting, you can continue by pressing Enter, but let's continue with our tutorial specific URL:
 `https://github.com/devonfw/katacoda-scenarios-ide-settings.git`{{execute}}
 
-Accept the licence agreements.
+Accept the license agreements.
 `yes`{{execute}}

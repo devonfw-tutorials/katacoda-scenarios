@@ -1,6 +1,6 @@
 Now you want to build the app in a second terminal. After all you can test the app.
 
-To open a second terminal click on the plus sign. A drop-down list will open and you click on "Open New Terminal".  
+To open a second terminal, click on the plus sign. A drop-down list will open, and you click on "Open New Terminal".  
 
 The next step is to install globally Angular CLI. Don't worry a second terminal will open when you execute the command.
 `npm install -g @angular/cli`{{execute T2}}
@@ -8,7 +8,7 @@ The next step is to install globally Angular CLI. Don't worry a second terminal 
 After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google.
 Either choose `y`{{execute T2}} or `n`{{execute T2}}
  
-Now switch to the angular folder in jump-the-queue directory.
+Now switch to the angular folder in my-thai-star directory.
 `cd my-thai-star/angular`{{execute T2}}
 
  

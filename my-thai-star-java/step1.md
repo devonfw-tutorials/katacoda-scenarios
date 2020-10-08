@@ -17,4 +17,4 @@ In the next step switch to the server folder.
 Now you can start the server.
 `mvn spring-boot:run`{{execute}}
 
-Because this terminal runs the server you can't use ist anymore.
+Because this terminal runs the server you can't use it anymore.

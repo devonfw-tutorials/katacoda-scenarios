@@ -21,6 +21,6 @@ The installation routine will ask you for a settings url. You can continue with 
 Accept the license agreements.
 `yes`{{execute}}
 
-The devonfw ide is now installed. To use the new 'devon' commands you have the open a new terminal or use the following command:
+The devonfw ide is now installed. To use the new 'devon' commands inside this terminal use the following command (this is only necessary for the katacoda tutorials):
 
 `. ~/.bashrc`{{execute}}

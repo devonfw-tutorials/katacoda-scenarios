@@ -32,7 +32,7 @@ public class SaveEmployeMessageProcessor<K, V> implements MessageProcessor<K, V>
 </pre>
 
 The SaveEmployeMessageProcessor class processes the consumed message. You now have to implement the processMessage method. The consumed message will be passed to this method as input parameter.
-Copy the following code snippet into the method.
+Replace the body of the method with the following code snippet.
 
 ```
 EmployeeEto convertedValue = null;

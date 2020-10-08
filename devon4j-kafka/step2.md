@@ -30,3 +30,5 @@ The starter-kafka-receiver dependency includes the starter-kafka-sender dependen
 Now you can build the project. This will install the needed dependencies.
 
 `devon mvn clean install -Dmaven.test.skip=true`{{execute}}
+
+It is not necessary to write 'devon' before the command when you are inside the devonfw IDE. In this case the correct maven installation, which was installed with the devonfw IDE, would be used without the 'devon', as well.

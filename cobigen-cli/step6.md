@@ -3,7 +3,7 @@
 Start cobigen cli and pass the entity file as the parameter.
 `devon cobigen generate core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{execute}}
 
-Cobigen cli will ask you which files should be generated. You can type the numbers seperated by comma.
+Cobigen cli will ask you which files should be generated. You can type the numbers separated by comma.
 `1,3,5,6,8`{{execute}}
 
 

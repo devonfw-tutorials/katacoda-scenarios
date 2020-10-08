@@ -15,4 +15,4 @@ Navigate into the java project and build it.
 
 `devon mvn clean install -Dmaven.test.skip=true`{{execute}}
 
-It is not necessary to write 'devon' before the commands when you are inside the devonfw IDE. In this case the correct maven installation, which was installed with the devonfw IDE, would be used without the 'devon', as well.
+It is not necessary to write 'devon' before the command when you are inside the devonfw IDE. In this case the correct maven installation, which was installed with the devonfw IDE, would be used without the 'devon', as well.

@@ -32,7 +32,7 @@ public class DeleteEmployeeMessageProcessor<K, V> implements MessageProcessor<K,
 
 Now you have to implement the method which deletes the employee from the database. The processMessage has the consumed message as input parameter.
 
-Copy the code in the given method.
+Copy the following code into the processMessage method.
 
 ```
 long employeeId = 0L;

@@ -1,8 +1,8 @@
 Now you want to build the app in a second terminal. After all you can test the app.
 
-To open a second terminal click on the plus sign. A drop-down list will open and you click on "Open New Terminal".  
+To open a second terminal, click on the plus sign. A drop-down list will open and you click on "Open New Terminal".  
 
-The next step is to install globally Angular CLI. Don't worry a second terminal will open when you execute the command.
+The next step is to install globally Angular CLI. Don't worry a second terminal will open, when you execute the command.
 `npm install -g @angular/cli`{{execute T2}}
 
 After a while you will be asked if you like to share anonymous usage data with the Angular Team at Google.
@@ -25,7 +25,7 @@ In the next step you need to change the Base URL for the REST Services. Open the
 Now change the baseUrlRestServices to `https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/jumpthequeue/services/rest`{{copy}}
 
 
-Last but not least switch back to terminal 2. Now you build and start the app.
+Last but not least switch back to terminal 2. Now build and start the app.
 `ng serve --host 0.0.0.0 --disable-host-check`{{execute T2}}
 
  
