@@ -25,6 +25,10 @@ To display the employee data inside the newly created section of the application
     ]
 ```
 
+CobiGen has already created the home section for us (starting at line 40). But a home section has already existed before and this section is used. In order to use the routes that CobiGen generated for us you have to modify the first home section starting at line 17.
+
+Copy the 'children'-object from the second home section and replace the content from the first section.
+
 The path attribute defines the URL the user navigates to. And the loadChildren method defines which module should be loaded when the user navigates to the URL.
 
 The EmployeeModule is defined in the file 'src/app/employee/employee.module.ts'. This file contains the three new components created by cobigen.
