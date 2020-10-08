@@ -14,7 +14,7 @@ Cobigen cli will ask you which files should be generated. You can type the numbe
 The generator will create some new files. Open the IDE and navigate into the angular project. Inside the 'src/app' folder the new folder 'employee' is created. It contains new components to display the employee data.
 
 CobiGen will also change the 'environment.ts' file. You need to modify the paths again. To do this switch again to the IDE and copy the following code.
-<pre class="file" data-target="replace" data-filename="devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/src/environments/environment.ts">
+<pre class="file" data-target="replace" data-filename="src/environments/environment.ts">
 export const environment = {
     production: false,
     restPathRoot: 'https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/',
