@@ -2,9 +2,9 @@
 
 The 'cobigen-angular' directory already contains the angular application. You can find the source code on https://github.com/devonfw/devon4ng-application-template/.
 
-Before we modify the application to show the employee data we run the server an take a look on the application how it looks now.
+Before we modify the application to show the employee data, we run the server an take a look on the application how it looks now.
 
-First you have to install the angular cli. Execute the following command. A new terminal window will open.
+First you have to install the angular cli. Execute the following command. Because the first terminal is blocked by the java server you have to open a new terminal window. By clicking on the following command, a new window will open automatically.
 `npm install -g @angular/cli`{{execute T2}}
 
 The installer will ask you if you want to share anonymous usage data with the Angular Team at Google. You can negate this by tipping 'N'.

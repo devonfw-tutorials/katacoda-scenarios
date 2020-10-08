@@ -3,9 +3,9 @@
 Open the 'app-routing.module.ts file in the IDE.
 `devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/src/app/app-routing.module.ts`{{open}}
 
-This file configures which modules should be loaded when the user navigates to a specific url inside the application.
+This file configures which modules should be loaded when the user navigates to a specific URL inside the application.
 
-To display the employee data inside the newly created section of the application we have to change the children object of home like it it shown in the following code snippet.
+To display the employee data inside the newly created section of the application we have to change the children object of home like it is shown in the following code snippet.
 
 ```
     children: [{
@@ -25,7 +25,7 @@ To display the employee data inside the newly created section of the application
     ]
 ```
 
-The path attribute defines the url the user naviagtes to. And the loadChildren method defines which module should be loaded when the user naviagtes to the url.
+The path attribute defines the URL the user navigates to. And the loadChildren method defines which module should be loaded when the user navigates to the URL.
 
 The EmployeeModule is defined in the file 'src/app/employee/employee.module.ts'. This file contains the three new components created by cobigen.
 `devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/src/app/employee/employee.module.ts`{{open}}

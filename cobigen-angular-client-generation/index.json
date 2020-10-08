@@ -55,7 +55,8 @@
   },
   "environment": {
     "uilayout": "terminal",
-	"showide": true
+    "showide": true,
+    "uieditorpath": "/root/devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/"
   },
   "backend": {
     "imageid": "ubuntu1804"
