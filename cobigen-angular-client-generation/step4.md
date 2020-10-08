@@ -19,10 +19,10 @@ The installer will ask again if you want to share data. Negate with 'N'.
 `N`{{execute T2}}
 
 Open the IDE and wait until it is completely loaded. Then open the file 'environment.ts' in the IDE.
-`devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/src/environments/environment.ts`{{open}}
+`src/environments/environment.ts`{{open}}
 
 Configure the paths to the backend server. For this change the properties 'restPathRoot' and 'restServiceRoot' with the values from the following code. Or simple click Copy to editor to copy the whole code into the file in the IDE.
-<pre class="file" data-target="replace" data-filename="devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/src/environments/environment.ts">
+<pre class="file" data-target="replace" data-filename="src/environments/environment.ts">
 export const environment = {
     production: false,
     restPathRoot: 'https://[[HOST_SUBDOMAIN]]-8081-[[KATACODA_HOST]].environments.katacoda.com/',
