@@ -30,7 +30,7 @@ public class DeleteEmployeeMessageProcessor<K, V> implements MessageProcessor<K,
 
 </pre>
 
-Now you have to implement the method whick deletes the employee from the database. The processMessage has the consumed message as input parameter.
+Now you have to implement the method which deletes the employee from the database. The processMessage has the consumed message as input parameter.
 
 Copy the code in the given method.
 

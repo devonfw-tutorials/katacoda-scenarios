@@ -13,12 +13,12 @@ To install devonfw execute the following commands. More information about settin
 `bash setup`{{execute}}
 
 
-The installtion process may take a while.
+The installation process may take a while.
 
 The installation routine will ask you for a settings url. You can continue with the following url.
 `https://github.com/devonfw/katacoda-scenarios-ide-settings.git`{{execute}}
 
-Accept the licence agreements.
+Accept the license agreements.
 `yes`{{execute}}
 
 The devonfw ide is now installed. To use the new 'devon' commands you have the open a new terminal or use the following command:

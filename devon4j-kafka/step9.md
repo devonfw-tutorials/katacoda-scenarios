@@ -1,6 +1,6 @@
 ## Start the Kafka server
 
-To run the test it is required to have Zookeeper and Kafka server running.
+To run the test, it is required to have Zookeeper and Kafka server running.
 `/root/kafka/bin/zookeeper-server-start.sh /root/kafka/config/zookeeper.properties`{{execute T2}}
 
 `/root/kafka/bin/kafka-server-start.sh /root/kafka/config/server.properties`{{execute T3}}

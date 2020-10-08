@@ -34,7 +34,7 @@ public class SaveEmployeeConsumer<K, V> {
 }
 </pre>
 
-The @KafkaListener annotation configures on which topic the consumer have to listen. In this case the consumer listens for messages of the 'employeeapp-employee-v1-add' topic. When the consumer gets a message, the message will be processed by the consumer method.
+The @KafkaListener annotation configures on which topic the consumer has to listen. In this case the consumer listens for messages of the 'employeeapp-employee-v1-add' topic. When the consumer gets a message, the message will be processed by the consumer method.
 Copy the following code into the consumer method.
 
 ```

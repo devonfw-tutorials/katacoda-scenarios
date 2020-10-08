@@ -1,4 +1,4 @@
-The second class is the consumer which recieves the message.
+The second class is the consumer which receives the message.
 
 <pre class="file" data-filename="devonfw/workspaces/main/devon4j-kafka/core/src/main/java/com/devonfw/application/employee/employeemanagement/service/impl/kafka/DeleteEmployeeMessageConsumer.java">
 package com.devonfw.application.employee.employeemanagement.service.impl.kafka;
@@ -32,7 +32,7 @@ public class DeleteEmployeeMessageConsumer<K, V> {
 }
 </pre>
 
-The @KafkaListener annotation binds the consumer to the 'employeeapp-employee-v1-delete' topic. When a message is passed to this topic the consumer will recive the message and will execute the consumer method.
+The @KafkaListener annotation binds the consumer to the 'employeeapp-employee-v1-delete' topic. When a message is passed to this topic the consumer will receive the message and will execute the consumer method.
 
 The consumer method will pass the message to the processor class created in the previous step. For this copy the following code into the method.
 
@@ -47,4 +47,4 @@ try {
 }
 ```{{copy}}
 
-The method passes the consumerRecord to the DeleteEmployeeMessageProcessor from the previous step. This will deletes the employee in the database. The acknowledgment is used to acknowledge that the message has been processed.
+The method passes the consumerRecord to the DeleteEmployeeMessageProcessor from the previous step. This will delete the employee in the database. The acknowledgment is used to acknowledge that the message has been processed.
