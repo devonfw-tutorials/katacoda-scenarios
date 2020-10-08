@@ -54,7 +54,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+    "uilayout": "terminal-iframe",
     "showide": true,
     "uieditorpath": "/root/devonfw/workspaces/main/cobigen-angular/devon4ng-application-template/"
   },
