@@ -12,4 +12,4 @@ Switch back to the first terminal and run the test.
 
 `mvn clean test -Dtest=com.devonfw.application.employee.employeemanagement.service.impl.rest.KafkaDemoServiceTest`{{execute T1}}
 
-This may take a while. If the result show one passed test, then the kafka consumer work well.
+This may take a while. If the result shows one passed test, the Kafka consumer is performing as expected.
