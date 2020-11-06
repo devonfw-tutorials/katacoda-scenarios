@@ -4,7 +4,8 @@
     "steps": [
       {
         "title": "Install Devon IDE",
-        "text": "step1.md"
+        "text": "step1.md",
+	"code": "cloneDevonIdeSettings.sh"
       },
       {
         "title": "Install CobiGen",
@@ -20,7 +21,7 @@
     "assets": {
       "client": [
         {
-          "file": "Folder/**",
+          "file": "*.*",
           "target": "/root/"
         }
       ]
