@@ -20,7 +20,7 @@
     "assets": {
       "client": [
         {
-          "file": "cloneDevonIdeSettings.sh",
+          "file": "Folder/",
           "target": "/root/"
         }
       ]
