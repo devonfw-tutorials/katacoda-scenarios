@@ -1,0 +1,31 @@
+{
+  "title": "CobiGen Cli",
+  "details": {
+    "steps": [
+      {
+        "title": "Install Devon IDE",
+        "text": "step1.md"
+      },
+      {
+        "title": "Install CobiGen",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": []
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "devonfw-cobigenenv"
+  }
+}
