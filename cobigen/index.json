@@ -18,7 +18,12 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": []
+      "client": [
+        {
+          "file": "*",
+          "target": "/root/"
+        }
+      ]
     }
   },
   "environment": {
@@ -26,6 +31,6 @@
     "showide": true
   },
   "backend": {
-    "imageid": "guentherjulian-cobigenenv"
+    "imageid": "ubuntu:2004"
   }
 }
