@@ -17,7 +17,7 @@
       "client": [
         {
           "file": "settings.zip",
-          "target": "/root/"
+          "target": "/root/devonfw/"
         }
       ]
     }
