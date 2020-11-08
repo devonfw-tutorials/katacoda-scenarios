@@ -16,8 +16,8 @@
     "assets": {
       "client": [
         {
-          "file": "settings/",
-          "target": "/root/"
+          "file": "settings.zip",
+          "target": "/root/devonfw/"
         }
       ]
     }
