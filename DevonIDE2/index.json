@@ -17,7 +17,7 @@
     "assets": {
       "client": [
         {
-          "file": "/settings/",
+          "file": "settings/",
           "target": "/root/"
         }
       ]
