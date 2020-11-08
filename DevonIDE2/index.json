@@ -4,8 +4,7 @@
     "steps": [
       {
         "title": "Install Devon IDE",
-        "text": "step1.md",
-	"code": "cloneDevonIdeSettings.sh"
+        "text": "step1.md"
       }
     ],
     "intro": {
@@ -17,7 +16,7 @@
     "assets": {
       "client": [
         {
-          "file": "settings/",
+          "file": "settings",
           "target": "/root/"
         }
       ]
