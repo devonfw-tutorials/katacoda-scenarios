@@ -413,6 +413,6 @@
     "showide": true
   },
   "backend": {
-    "imageid": "devonfw-cobigenenv"
+    "imageid": "ubuntu:2004"
   }
 }
