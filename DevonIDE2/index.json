@@ -20,7 +20,7 @@
           "target": "/root/devonfw/"
         },
 	{
-          "file": "folder/test.txt",
+          "file": "folder/subfolder/test.txt",
           "target": "/root/devonfw/"
         }
       ]
