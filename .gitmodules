@@ -1,0 +1,3 @@
+[submodule "DevonIDE3/assets/settings"]
+	path = DevonIDE3/assets/settings
+	url = https://github.com/devonfw/ide-settings.git
