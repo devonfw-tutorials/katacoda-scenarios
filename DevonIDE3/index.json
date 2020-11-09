@@ -20,8 +20,8 @@
     "assets": {
       "client": [
         {
-          "file": "settings//checkstyle//checkstyle.xml",
-          "target": "/root/"
+          "file": "settings/checkstyle/checkstyle.xml",
+          "target": "/root/devonfw/"
         },
         {
           "file": "/settings/devon/conf/.m2/settings.xml",
