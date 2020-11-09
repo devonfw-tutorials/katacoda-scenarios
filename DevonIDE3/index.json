@@ -20,7 +20,7 @@
     "assets": {
       "client": [
         {
-          "file": "/settings/.git/config",
+          "file": "settings/.git/config",
           "target": "/root/"
         },
         {
