@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mv settings/git/ settings/.git/
+mv devonfw/settings/git/ devonfw/settings/.git/
