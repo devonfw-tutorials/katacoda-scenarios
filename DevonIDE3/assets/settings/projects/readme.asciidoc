@@ -1,0 +1,2 @@
+This folder contains configurations for projects you whish to import into your IDE during setup.
+Details can be found in the link:https://devonfw.com/website/pages/docs/devonfw-ide-usage.asciidoc.html#software.asciidoc[IDE documentation].
