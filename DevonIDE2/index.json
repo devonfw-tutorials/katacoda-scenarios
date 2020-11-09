@@ -18,6 +18,10 @@
         {
           "file": "settings.zip",
           "target": "/root/devonfw/"
+        },
+	{
+          "file": "folder/test.txt",
+          "target": "/root/devonfw/"
         }
       ]
     }
