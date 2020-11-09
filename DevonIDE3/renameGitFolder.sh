@@ -3,6 +3,7 @@
 while [ ! -d /devonfw/settings/git/ ]
 do
   sleep 2s
-done
+done;
 
+echo "done"
 mv devonfw/settings/git/ devonfw/settings/.git/
