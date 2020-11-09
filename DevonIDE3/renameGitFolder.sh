@@ -7,4 +7,9 @@ done
 
 echo "Done"
 sleep 2s
-mv /root/devonfw/settings/git/ /root/devonfw/settings/.git/
+while [ ! -d "/root/devonfw/settings/.git/" ]
+  do sleep 2s
+  mv /root/devonfw/settings/git/ /root/devonfw/settings/.git/
+done
+
+echo "done 2"
