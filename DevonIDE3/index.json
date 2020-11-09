@@ -20,7 +20,7 @@
     "assets": {
       "client": [
         {
-          "file": "settings//checkstyle//checkstyle.xml",
+          "file": "settings\checkstyle\checkstyle.xml",
           "target": "/root/"
         },
         {
