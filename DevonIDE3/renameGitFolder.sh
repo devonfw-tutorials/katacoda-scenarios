@@ -6,4 +6,5 @@ while [ ! -d "/root/devonfw/settings/git/" ]
 done
 
 echo "Done"
+sleep 2s
 mv /root/devonfw/settings/git/ /root/devonfw/settings/.git/
