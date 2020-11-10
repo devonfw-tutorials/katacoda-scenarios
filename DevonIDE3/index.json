@@ -23,7 +23,7 @@
     "assets": {
       "client": [
         {
-          "file": "settings\.gitignore",
+          "file": "settings/.gitignore",
           "target": "\\root\\devonfw-settings\\settings"
         },
         {
