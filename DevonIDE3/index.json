@@ -24,387 +24,387 @@
       "client": [
         {
           "file": "settings/.gitignore",
-          "target": "\\root\\devonfw-settings\\settings"
+          "target": "/root/devonfw-settings/settings"
         },
         {
-          "file": "settings\\checkstyle\\checkstyle.xml",
-          "target": "\\root\\devonfw-settings\\settings\\checkstyle"
+          "file": "settings/checkstyle/checkstyle.xml",
+          "target": "/root/devonfw-settings/settings/checkstyle"
         },
         {
-          "file": "settings\\devon\\conf\\.m2\\settings.xml",
-          "target": "\\root\\devonfw-settings\\settings\\devon\\conf\\.m2"
+          "file": "settings/devon/conf/.m2/settings.xml",
+          "target": "/root/devonfw-settings/settings/devon/conf/.m2"
         },
         {
-          "file": "settings\\devon\\conf\\devon.properties",
-          "target": "\\root\\devonfw-settings\\settings\\devon\\conf"
+          "file": "settings/devon/conf/devon.properties",
+          "target": "/root/devonfw-settings/settings/devon/conf"
         },
         {
-          "file": "settings\\devon\\conf\\npm\\.npmrc",
-          "target": "\\root\\devonfw-settings\\settings\\devon\\conf\\npm"
+          "file": "settings/devon/conf/npm/.npmrc",
+          "target": "/root/devonfw-settings/settings/devon/conf/npm"
         },
         {
-          "file": "settings\\devon.properties",
-          "target": "\\root\\devonfw-settings\\settings"
+          "file": "settings/devon.properties",
+          "target": "/root/devonfw-settings/settings"
         },
         {
-          "file": "settings\\eclipse\\archetype-catalog.xml",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse"
+          "file": "settings/eclipse/archetype-catalog.xml",
+          "target": "/root/devonfw-settings/settings/eclipse"
         },
         {
-          "file": "settings\\eclipse\\lifecycle-mapping-metadata.xml",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse"
+          "file": "settings/eclipse/lifecycle-mapping-metadata.xml",
+          "target": "/root/devonfw-settings/settings/eclipse"
         },
         {
-          "file": "settings\\eclipse\\plugins\\anyedit.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/anyedit.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\checkstyle.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/checkstyle.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\cobigen.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/cobigen.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\devstyle.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/devstyle.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\github.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/github.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\lombok.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/lombok.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\regexutil.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/regexutil.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\soapui.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/soapui.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\sonarlint.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/sonarlint.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\spotbugs.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/spotbugs.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\startexplorer.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/startexplorer.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\templatevariables.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/templatevariables.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\plugins\\tmterminal.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\plugins"
+          "file": "settings/eclipse/plugins/tmterminal.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/plugins"
         },
         {
-          "file": "settings\\eclipse\\project.dictionary",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse"
+          "file": "settings/eclipse/project.dictionary",
+          "target": "/root/devonfw-settings/settings/eclipse"
         },
         {
-          "file": "settings\\eclipse\\workspace\\replacement-patterns.properties",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace"
+          "file": "settings/eclipse/workspace/replacement-patterns.properties",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.debug.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.e4.ui.css.swt.theme.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.e4.ui.css.swt.theme.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.jdt.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.ui.ide.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.ui.workbench.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.springsource.ide.eclipse.commons.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.springsource.ide.eclipse.dashboard.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.dashboard.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.tigris.subversion.subclipse.tools.usage.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.tools.usage.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.tigris.subversion.subclipse.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.m2e.core\\archetypesInfo.xml",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.m2e.core"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.m2e.core/archetypesInfo.xml",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.m2e.core"
         },
         {
-          "file": "settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.ui.ide\\dialog_settings.xml",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\setup\\.metadata\\.plugins\\org.eclipse.ui.ide"
+          "file": "settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/setup/.metadata/.plugins/org.eclipse.ui.ide"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\net.sf.eclipsecs.core\\checkstyle-config.xml",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\net.sf.eclipsecs.core"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/net.sf.eclipsecs.core/checkstyle-config.xml",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/net.sf.eclipsecs.core"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.compare.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.compare.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.core.resources.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.debug.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.jdt.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.jdt.debug.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.debug.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.jdt.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.jst.jsp.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.jsp.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.m2e.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.mylyn.team.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.team.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.team.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.team.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.ui.editors.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.ui.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.wst.css.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.css.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.wst.html.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.html.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.wst.validation.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.validation.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings\\org.eclipse.wst.xml.core.prefs",
-          "target": "\\root\\devonfw-settings\\settings\\eclipse\\workspace\\update\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings"
+          "file": "settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.xml.core.prefs",
+          "target": "/root/devonfw-settings/settings/eclipse/workspace/update/.metadata/.plugins/org.eclipse.core.runtime/.settings"
         },
         {
-          "file": "settings\\findbugs\\findbugs-exclude.xml",
-          "target": "\\root\\devonfw-settings\\settings\\findbugs"
+          "file": "settings/findbugs/findbugs-exclude.xml",
+          "target": "/root/devonfw-settings/settings/findbugs"
         },
         {
-          "file": "settings\\findbugs\\findbugs-include.xml",
-          "target": "\\root\\devonfw-settings\\settings\\findbugs"
+          "file": "settings/findbugs/findbugs-include.xml",
+          "target": "/root/devonfw-settings/settings/findbugs"
         },
         {
-          "file": "settings\\git\\config",
-          "target": "\\root\\devonfw-settings\\settings\\git"
+          "file": "settings/git/config",
+          "target": "/root/devonfw-settings/settings/git"
         },
         {
-          "file": "settings\\git\\description",
-          "target": "\\root\\devonfw-settings\\settings\\git"
+          "file": "settings/git/description",
+          "target": "/root/devonfw-settings/settings/git"
         },
         {
-          "file": "settings\\git\\HEAD",
-          "target": "\\root\\devonfw-settings\\settings\\git"
+          "file": "settings/git/HEAD",
+          "target": "/root/devonfw-settings/settings/git"
         },
         {
-          "file": "settings\\git\\hooks\\applypatch-msg.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/applypatch-msg.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\commit-msg.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/commit-msg.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\fsmonitor-watchman.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/fsmonitor-watchman.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\post-update.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/post-update.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-applypatch.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-applypatch.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-commit.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-commit.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-merge-commit.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-merge-commit.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-push.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-push.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-rebase.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-rebase.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\pre-receive.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/pre-receive.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\prepare-commit-msg.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/prepare-commit-msg.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\hooks\\update.sample",
-          "target": "\\root\\devonfw-settings\\settings\\git\\hooks"
+          "file": "settings/git/hooks/update.sample",
+          "target": "/root/devonfw-settings/settings/git/hooks"
         },
         {
-          "file": "settings\\git\\index",
-          "target": "\\root\\devonfw-settings\\settings\\git"
+          "file": "settings/git/index",
+          "target": "/root/devonfw-settings/settings/git"
         },
         {
-          "file": "settings\\git\\info\\exclude",
-          "target": "\\root\\devonfw-settings\\settings\\git\\info"
+          "file": "settings/git/info/exclude",
+          "target": "/root/devonfw-settings/settings/git/info"
         },
         {
-          "file": "settings\\git\\logs\\HEAD",
-          "target": "\\root\\devonfw-settings\\settings\\git\\logs"
+          "file": "settings/git/logs/HEAD",
+          "target": "/root/devonfw-settings/settings/git/logs"
         },
         {
-          "file": "settings\\git\\logs\\refs\\heads\\master",
-          "target": "\\root\\devonfw-settings\\settings\\git\\logs\\refs\\heads"
+          "file": "settings/git/logs/refs/heads/master",
+          "target": "/root/devonfw-settings/settings/git/logs/refs/heads"
         },
         {
-          "file": "settings\\git\\logs\\refs\\remotes\\origin\\HEAD",
-          "target": "\\root\\devonfw-settings\\settings\\git\\logs\\refs\\remotes\\origin"
+          "file": "settings/git/logs/refs/remotes/origin/HEAD",
+          "target": "/root/devonfw-settings/settings/git/logs/refs/remotes/origin"
         },
         {
-          "file": "settings\\git\\objects\\pack\\pack-d886101c7ac5ae21a374cd0a3186c4d81f6e9790.idx",
-          "target": "\\root\\devonfw-settings\\settings\\git\\objects\\pack"
+          "file": "settings/git/objects/pack/pack-d886101c7ac5ae21a374cd0a3186c4d81f6e9790.idx",
+          "target": "/root/devonfw-settings/settings/git/objects/pack"
         },
         {
-          "file": "settings\\git\\objects\\pack\\pack-d886101c7ac5ae21a374cd0a3186c4d81f6e9790.pack",
-          "target": "\\root\\devonfw-settings\\settings\\git\\objects\\pack"
+          "file": "settings/git/objects/pack/pack-d886101c7ac5ae21a374cd0a3186c4d81f6e9790.pack",
+          "target": "/root/devonfw-settings/settings/git/objects/pack"
         },
         {
-          "file": "settings\\git\\packed-refs",
-          "target": "\\root\\devonfw-settings\\settings\\git"
+          "file": "settings/git/packed-refs",
+          "target": "/root/devonfw-settings/settings/git"
         },
         {
-          "file": "settings\\git\\refs\\heads\\master",
-          "target": "\\root\\devonfw-settings\\settings\\git\\refs\\heads"
+          "file": "settings/git/refs/heads/master",
+          "target": "/root/devonfw-settings/settings/git/refs/heads"
         },
         {
-          "file": "settings\\git\\refs\\remotes\\origin\\HEAD",
-          "target": "\\root\\devonfw-settings\\settings\\git\\refs\\remotes\\origin"
+          "file": "settings/git/refs/remotes/origin/HEAD",
+          "target": "/root/devonfw-settings/settings/git/refs/remotes/origin"
         },
         {
-          "file": "settings\\intellij\\workspace\\update\\idea.properties",
-          "target": "\\root\\devonfw-settings\\settings\\intellij\\workspace\\update"
+          "file": "settings/intellij/workspace/update/idea.properties",
+          "target": "/root/devonfw-settings/settings/intellij/workspace/update"
         },
         {
-          "file": "settings\\LICENSE",
-          "target": "\\root\\devonfw-settings\\settings"
+          "file": "settings/LICENSE",
+          "target": "/root/devonfw-settings/settings"
         },
         {
-          "file": "settings\\pmd\\pmd-ruleset.xml",
-          "target": "\\root\\devonfw-settings\\settings\\pmd"
+          "file": "settings/pmd/pmd-ruleset.xml",
+          "target": "/root/devonfw-settings/settings/pmd"
         },
         {
-          "file": "settings\\projects\\devon4j.properties",
-          "target": "\\root\\devonfw-settings\\settings\\projects"
+          "file": "settings/projects/devon4j.properties",
+          "target": "/root/devonfw-settings/settings/projects"
         },
         {
-          "file": "settings\\projects\\mts.properties",
-          "target": "\\root\\devonfw-settings\\settings\\projects"
+          "file": "settings/projects/mts.properties",
+          "target": "/root/devonfw-settings/settings/projects"
         },
         {
-          "file": "settings\\projects\\readme.asciidoc",
-          "target": "\\root\\devonfw-settings\\settings\\projects"
+          "file": "settings/projects/readme.asciidoc",
+          "target": "/root/devonfw-settings/settings/projects"
         },
         {
-          "file": "settings\\README.asciidoc",
-          "target": "\\root\\devonfw-settings\\settings"
+          "file": "settings/README.asciidoc",
+          "target": "/root/devonfw-settings/settings"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-C#.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-C#.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-CSS.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-CSS.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-Java.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-Java.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-JavaScript.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-JavaScript.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-TypeScript.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-TypeScript.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-Web.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-Web.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\sonarqube\\profiles\\Devon-XML.xml",
-          "target": "\\root\\devonfw-settings\\settings\\sonarqube\\profiles"
+          "file": "settings/sonarqube/profiles/Devon-XML.xml",
+          "target": "/root/devonfw-settings/settings/sonarqube/profiles"
         },
         {
-          "file": "settings\\vscode\\plugins\\devonfw-extension-pack.properties",
-          "target": "\\root\\devonfw-settings\\settings\\vscode\\plugins"
+          "file": "settings/vscode/plugins/devonfw-extension-pack.properties",
+          "target": "/root/devonfw-settings/settings/vscode/plugins"
         },
         {
-          "file": "settings\\vscode\\plugins\\lombok.properties",
-          "target": "\\root\\devonfw-settings\\settings\\vscode\\plugins"
+          "file": "settings/vscode/plugins/lombok.properties",
+          "target": "/root/devonfw-settings/settings/vscode/plugins"
         },
         {
-          "file": "settings\\vscode\\workspace\\replacement-patterns.properties",
-          "target": "\\root\\devonfw-settings\\settings\\vscode\\workspace"
+          "file": "settings/vscode/workspace/replacement-patterns.properties",
+          "target": "/root/devonfw-settings/settings/vscode/workspace"
         },
         {
-          "file": "settings\\vscode\\workspace\\update\\.vscode\\settings.json",
-          "target": "\\root\\devonfw-settings\\settings\\vscode\\workspace\\update\\.vscode"
+          "file": "settings/vscode/workspace/update/.vscode/settings.json",
+          "target": "/root/devonfw-settings/settings/vscode/workspace/update/.vscode"
         }
       ]
     }
