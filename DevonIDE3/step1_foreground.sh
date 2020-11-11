@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Setup of step 1..."
-while [ ! -f /root/scripts/step1/FINISH ]
+while [ ! -f /root/scripts/step1/FINISHED ]
 do
 	sleep 2s
 done
