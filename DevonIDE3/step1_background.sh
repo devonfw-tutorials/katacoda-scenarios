@@ -8,4 +8,4 @@ do
   bash $f
 done
 
-touch FINISHED
+touch /root/scripts/step1/FINISHED
