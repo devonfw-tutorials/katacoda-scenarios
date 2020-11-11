@@ -26,6 +26,10 @@
         {
           "file": "scripts/step1/1_cloneDevonIdeSettings.sh",
           "target": "/root/scripts/step1"
+        },
+	{
+          "file": "waitForInit.sh",
+          "target": "/root/"
         }
       ]
     }
