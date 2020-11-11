@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "4 fdfsdfs"
+echo date + "%T.%N Time" > /roor/step14.txt

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "3fdf"
+echo date + "%T.%N Time" > /roor/step13.txt

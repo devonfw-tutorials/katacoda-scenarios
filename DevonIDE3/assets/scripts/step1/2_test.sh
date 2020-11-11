@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo "2_test"
+echo date + "%T.%N Time" > /roor/step12.txt
