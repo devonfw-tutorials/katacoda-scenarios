@@ -1,5 +1,5 @@
 {
-  "title": "Devon IDE 3",
+  "title": "CobiGen Cli",
   "difficulty": "Beginner",
   "time": "10 Minutes",
   "details": {
@@ -7,8 +7,8 @@
       {
         "title": "Install Devon IDE",
         "text": "step1.md",
-        "foreground": "step1_foreground.sh",
-	"background": "step1_background.sh"
+        "foreground": "1_foreground.sh",
+        "background": "1_background.sh"
       },
       {
         "title": "Install CobiGen",
@@ -24,8 +24,8 @@
     "assets": {
       "client": [
         {
-          "file": "/scripts/step1/1_cloneIdeSettings.sh",
-          "target": "/root/scripts/step1/"
+          "file": "scripts/step1/1_cloneDevonIdeSettings.sh",
+          "target": "/root/scripts/step1/scripts/step1"
         }
       ]
     }
