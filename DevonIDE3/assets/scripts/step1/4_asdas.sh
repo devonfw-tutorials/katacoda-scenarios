@@ -1,3 +1,5 @@
 #!/bin/sh
 
-echo date + "%T.%N Time" > /roor/step14.txt
+sleep 2
+touch /root/step14.txt
+echo date + "%T.%N Time" > /root/step14.txt
