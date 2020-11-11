@@ -1,5 +1,6 @@
 #!/bin/sh
 
+sleep 10s
 echo "Start"
 cd /root/scripts/step1/
 
