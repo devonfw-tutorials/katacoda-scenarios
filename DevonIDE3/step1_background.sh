@@ -1,6 +1,5 @@
 #!/bin/sh
 
-sleep 10
 cd /root/scripts/step1/
 
 FILES=/root/scripts/step1/*
