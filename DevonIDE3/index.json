@@ -25,7 +25,7 @@
       "client": [
         {
           "file": "scripts/step1/1_cloneDevonIdeSettings.sh",
-          "target": "/root/scripts/step1/scripts/step1"
+          "target": "/root/scripts/step1"
         }
       ]
     }
