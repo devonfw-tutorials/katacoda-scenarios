@@ -7,7 +7,8 @@
       {
         "title": "Install Devon IDE",
         "text": "step1.md",
-        "foreground": "step1_background.sh"
+        "foreground": "step1_foreground.sh",
+	"background": "step1_background.sh",
       },
       {
         "title": "Install CobiGen",
@@ -24,18 +25,6 @@
       "client": [
         {
           "file": "/scripts/step1/1_cloneIdeSettings.sh",
-          "target": "/root/scripts/step1/"
-        },
-	{
-          "file": "/scripts/step1/2_test.sh",
-          "target": "/root/scripts/step1/"
-        },
-	{
-          "file": "/scripts/step1/3_test.sh",
-          "target": "/root/scripts/step1/"
-        },
-	{
-          "file": "/scripts/step1/4_test.sh",
           "target": "/root/scripts/step1/"
         }
       ]
