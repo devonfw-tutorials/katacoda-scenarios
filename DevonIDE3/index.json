@@ -25,6 +25,18 @@
         {
           "file": "/scripts/step1/1_cloneIdeSettings.sh",
           "target": "/root/scripts/step1/"
+        },
+	{
+          "file": "/scripts/step1/2_test.sh",
+          "target": "/root/scripts/step1/"
+        },
+	{
+          "file": "/scripts/step1/3_test.sh",
+          "target": "/root/scripts/step1/"
+        },
+	{
+          "file": "/scripts/step1/4_test.sh",
+          "target": "/root/scripts/step1/"
         }
       ]
     }
