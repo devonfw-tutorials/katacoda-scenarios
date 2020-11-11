@@ -9,3 +9,5 @@ for f in $FILES
 do
   bash $f
 done
+
+echo "Ready"
