@@ -1,13 +1,9 @@
 #!/bin/sh
 
-sleep 10s
-echo "Start"
-cd /root/scripts/step1/
-
-FILES=/root/scripts/step1/*
-for f in $FILES
+echo "Setup Step 1"
+while [ ! -f /root/scripts/step1/FINISH ]
 do
-  bash $f
+	sleep 2s
 done
 
-echo "Ready"
+echo "Done"

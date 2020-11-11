@@ -7,7 +7,8 @@
       {
         "title": "Install Devon IDE",
         "text": "step1.md",
-        "foreground": "step1_foreground.sh"
+        "foreground": "step1_foreground.sh",
+	"background": "step1_background.sh"
       },
       {
         "title": "Install CobiGen",
