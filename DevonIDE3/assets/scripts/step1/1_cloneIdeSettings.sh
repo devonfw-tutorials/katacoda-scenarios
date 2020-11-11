@@ -1,6 +1,5 @@
 #!/bin/sh
 
-echo "Start cloneSettings"
 cd /root/
 mkdir devonfw-settings
 cd devonfw-settings

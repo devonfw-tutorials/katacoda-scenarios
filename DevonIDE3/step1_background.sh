@@ -1,7 +1,6 @@
 #!/bin/sh
 
-sleep 5s
-echo "Start"
+
 cd /root/scripts/step1/
 
 FILES=/root/scripts/step1/*
