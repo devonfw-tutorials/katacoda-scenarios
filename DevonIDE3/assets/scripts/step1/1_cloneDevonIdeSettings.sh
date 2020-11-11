@@ -1,5 +1,6 @@
 #!/bin/sh
 
+mkdir /root/devonfw-settings/
 cd /root/devonfw-settings/
 
 git clone https://github.com/devonfw/ide-settings.git settings
