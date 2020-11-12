@@ -15,6 +15,7 @@ while [ "$i" -le $STEPS ]; do
 	NAME=$(head $SETUP_FILE -n$NAME_LINE | tail -n1)
 	COMMAND=$(head $SETUP_FILE -n$SCRIPT_LINE | tail -n1)
 	sh "/root/setup/$COMMAND"
-	echo NAME > $STATUS_FILE
+	echo $NAME > $STATUS_FILE
 	i=$(( i + 1 ))
 done
+echo "Finished" > $STATUS_FILE
