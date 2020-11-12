@@ -8,7 +8,7 @@ done
 
 STEPS=$(head $SETUP_FILE -n1)
 i=0
-while [ "$i" -le $STEPS ]; do
+while [ "$i" -lt $STEPS ]; do
 	NAME_LINE=$((i * 4 + 2))
 	SCRIPT_LINE=$((i * 4 + 3))
 	FIN_LINE=$((i * 4 + 4))
