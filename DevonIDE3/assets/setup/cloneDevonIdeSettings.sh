@@ -1,6 +1,5 @@
 #!/bin/sh
 
-sleep 4
 mkdir /root/devonfw-settings/
 cd /root/devonfw-settings/
 
