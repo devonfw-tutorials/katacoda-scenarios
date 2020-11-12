@@ -10,8 +10,8 @@ done
 STEPS=$(head $SETUP_FILE -n1)
 i=1
 while [ "$i" -le $STEPS ]; do
-	NAME_LINE=$((i * 4 + 2))
-	SCRIPT_LINE=$((i * 4 + 3))
+	NAME_LINE=$((i * 3))
+	SCRIPT_LINE=$((i * 3 + 1))
 	NAME=$(head $SETUP_FILE -n$NAME_LINE | tail -n1)
 	COMMAND=$(head $SETUP_FILE -n$SCRIPT_LINE | tail -n1)
 	sh "/root/setup/$COMMAND"
