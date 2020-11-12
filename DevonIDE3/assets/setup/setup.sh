@@ -21,7 +21,7 @@ while [ "$i" -lt $STEPS ]; do
 	echo "Fin: $TMP"
 	while [ "$TMP" != "Finished" ]; do
         sleep 1
-		echo "Bla"
+		echo "Fin: $TMP"
     done
 	i=$(( i + 1 ))
 done
