@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "background"
-SETUP_FILE="$(pwd)/setup.txt"
+SETUP_FILE="/root/setup/setup.txt"
 while [ ! -f $SETUP_FILE ]
 do 
 	sleep 1

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SETUP_FILE="$(pwd)/setup.txt"
+SETUP_FILE="/root/setup/setup.txt"
 echo "$SETUP_FILE"
 while [ ! -f $SETUP_FILE ]
 do 
