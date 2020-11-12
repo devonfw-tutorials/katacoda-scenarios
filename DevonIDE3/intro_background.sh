@@ -8,8 +8,8 @@ done
 
 STEPS=$(head $SETUP_FILE -n1)
 echo "Start setup script ($STEPS steps)"
-for (( i=0; i<$STEPS; i++ ))
-do 
+i=0
+while [ "$i" -le $STEPS ]; do
 	NAME_LINE=$((i * 4 + 2))
 	SCRIPT_LINE=$((i * 4 + 3))
 	FIN_LINE=$((i * 4 + 4))
