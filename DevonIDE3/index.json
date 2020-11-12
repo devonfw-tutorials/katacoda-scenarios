@@ -24,11 +24,19 @@
     "assets": {
       "client": [
         {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
           "file": "setup/cloneDevonIdeSettings.sh",
           "target": "/root/setup"
         },
         {
           "file": "setup/setup.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/test.sh",
           "target": "/root/setup"
         }
       ]
