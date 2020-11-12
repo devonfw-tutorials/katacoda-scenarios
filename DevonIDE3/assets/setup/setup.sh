@@ -16,13 +16,11 @@ while [ "$i" -lt $STEPS ]; do
 	NAME=$(head $SETUP_FILE -n$NAME_LINE | tail -n1)
 	COMMAND=$(head $SETUP_FILE -n$SCRIPT_LINE | tail -n1)
 	TMP=$(head $SETUP_FILE -n$FIN_LINE | tail -n1)
-	echo "Name: $NAME"
-	echo "Command: $COMMAND"
-	echo "Fin: $TMP"
+	echo "Executing step $i: $NAME"
 	while [ "$TMP" != "Finished" ]; do
         sleep 1
 		TMP=$(head $SETUP_FILE -n$FIN_LINE | tail -n1)
-		echo "Fin: $TMP"
     done
 	i=$(( i + 1 ))
 done
+echo "Setup script finished!"
