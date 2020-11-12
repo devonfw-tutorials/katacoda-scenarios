@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "background"
+
 SETUP_FILE="/root/setup/setup.txt"
 while [ ! -f $SETUP_FILE ]
 do 
@@ -19,5 +19,9 @@ while [ "$i" -lt $STEPS ]; do
 	echo "Name: $NAME"
 	echo "Command: $COMMAND"
 	echo "Fin: $TMP"
+	while [ "$TMP" != "Finished" ]; do
+        sleep 1
+		echo "Bla"
+    done
 	i=$(( i + 1 ))
 done
