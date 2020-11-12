@@ -18,4 +18,5 @@ while [ "$i" -le $STEPS ]; do
 	sh $COMMAND
 	WRITE_FILE="sed -i ""$(($FIN_LINE))s/^/Finished/"" $SETUP_FILE"
 	$WRITE_FILE
+	i=$(( i + 1 ))
 done
