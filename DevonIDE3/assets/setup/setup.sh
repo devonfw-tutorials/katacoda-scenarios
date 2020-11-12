@@ -1,9 +1,23 @@
 #!/bin/sh
 
-echo "Setup of step 1..."
-(while [ ! -f /root/scripts/step1/FINISHED ]
-do
-	sleep 1s
-done) > /dev/null
+SETUP_FILE="$(pwd)/setup.txt"
+while [ ! -f $SETUP_FILE ]
+do 
+	sleep 1
+done
 
-echo "Done. You can continue by following the constructions on the left."
+STEPS=$(head $SETUP_FILE -n1)
+for (( i=0; i<$STEPS; i++ ))
+do 
+	NAME_LINE=$((i * 4 + 2))
+	FIN_LINE=$((i * 4 + 4))
+	NAME=$(head $SETUP_FILE -n$NAME_LINE | tail -n1)
+	echo "Executing step $((i + 1)): $NAME"
+	TMP=$(head $SETUP_FILE -n$FIN_LINE | tail -n1)
+  while [! test $TMP -eq "Finished"]
+  do
+    sleep 1
+    TMP=$(head $SETUP_FILE -n$FIN_LINE | tail -n1)
+  done
+done
+echo "Setup script finished!"
