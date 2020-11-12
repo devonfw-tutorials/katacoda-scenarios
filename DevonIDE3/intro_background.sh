@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "background"
+
 SETUP_FILE="/root/setup/setup.txt"
 while [ ! -f $SETUP_FILE ]
 do 
@@ -7,7 +7,6 @@ do
 done
 
 STEPS=$(head $SETUP_FILE -n1)
-echo "Start setup script ($STEPS steps)"
 i=0
 while [ "$i" -le $STEPS ]; do
 	NAME_LINE=$((i * 4 + 2))
