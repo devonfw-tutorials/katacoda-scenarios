@@ -21,6 +21,7 @@ while [ "$i" -lt $STEPS ]; do
 	echo "Fin: $TMP"
 	while [ "$TMP" != "Finished" ]; do
         sleep 1
+		TMP=$(head $SETUP_FILE -n$FIN_LINE | tail -n1)
 		echo "Fin: $TMP"
     done
 	i=$(( i + 1 ))
