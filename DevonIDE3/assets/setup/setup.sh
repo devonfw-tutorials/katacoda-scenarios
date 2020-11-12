@@ -1,12 +1,14 @@
 #!/bin/sh
 
 SETUP_FILE="$(pwd)/setup.txt"
+echo "$SETUP_FILE"
 while [ ! -f $SETUP_FILE ]
 do 
 	sleep 1
 done
-
+echo "Start"
 STEPS=$(head $SETUP_FILE -n1)
+echo "Steps: $STEPS"
 for (( i=0; i<$STEPS; i++ ))
 do 
 	NAME_LINE=$((i * 4 + 2))

@@ -1,5 +1,5 @@
 #!/bin/sh
-
+echo "background"
 SETUP_FILE="$(pwd)/setup.txt"
 while [ ! -f $SETUP_FILE ]
 do 
