@@ -15,7 +15,7 @@ while [ "$i" -le $STEPS ]; do
 	FIN_LINE=$((i * 4 + 4))
 	NAME=$(head $SETUP_FILE -n$NAME_LINE | tail -n1)
 	COMMAND=$(head $SETUP_FILE -n$SCRIPT_LINE | tail -n1)
-	sh $COMMAND
+	sh "/root/setup/$COMMAND"
 	WRITE_FILE="sed -i ""$(($FIN_LINE))s/^/Finished/"" $SETUP_FILE"
 	$WRITE_FILE
 	i=$(( i + 1 ))
