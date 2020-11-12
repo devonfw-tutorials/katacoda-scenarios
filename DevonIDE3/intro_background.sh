@@ -2,6 +2,7 @@
 
 SETUP_FILE="/root/setup/setup.txt"
 STATUS_FILE="/root/setup/status.txt"
+echo "" > $STATUS_FILE
 while [ ! -f $SETUP_FILE ]
 do 
 	sleep 1
