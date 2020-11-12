@@ -15,8 +15,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "1_foreground.sh",
-      "courseDate": "1_background.sh"
+      "code": "intro_foreground.sh",
+      "courseData": "intro_background.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -24,12 +24,12 @@
     "assets": {
       "client": [
         {
-          "file": "scripts/step1/1_cloneDevonIdeSettings.sh",
-          "target": "/root/scripts/step1"
+          "file": "setup/cloneDevonIdeSettings.sh",
+          "target": "/root/setup"
         },
-	{
-          "file": "waitForInit.sh",
-          "target": "/root/"
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
         }
       ]
     }
