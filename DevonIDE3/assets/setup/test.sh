@@ -1,4 +1,5 @@
 #!/bin/sh
 
-sleep 5
-echo "Test finished"
+mkdir /root/test/
+cd /root/test/
+touch test.txt
