@@ -8,8 +8,13 @@ do
 done
 
 CURRENT_STEP=$(head $STATUS_FILE -n1)
+OLD_STEP=""
 while [ "$CURRENT_STEP" != "Finished" ]; do
-	echo "Executing step $CURRENT_STEP"
+	if ["$OLD_STEP" != "$CURRENT_STEP"]
+	then
+		echo "Executing step:  $CURRENT_STEP"
+		OLD_STEP="$CURRENT_STEP"
+	fi
     sleep 1
 	CURRENT_STEP=$(head $STATUS_FILE -n1)
 done
