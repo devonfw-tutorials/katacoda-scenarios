@@ -29,11 +29,11 @@
         },
         {
           "file": "setup/cloneDevonfwIdeSettings.sh",
-          "target": "/root/C:/projects/my-first-project/workspaces/main/tutorial-compiler/build/temp/katacoda/cobigen/setu"
+          "target": "/root/setup"
         },
         {
           "file": "setup/setup.sh",
-          "target": "/root/C:/projects/my-first-project/workspaces/main/tutorial-compiler/build/temp/katacoda/cobigen/setu"
+          "target": "/root/setup"
         }
       ]
     }
