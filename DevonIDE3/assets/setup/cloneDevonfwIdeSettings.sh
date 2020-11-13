@@ -9,3 +9,6 @@ TOOLS="DEVON_IDE_TOOLS=(java mvn)"
 echo $TOOLS > settings/devon.properties
 
 mv /root/devonfw-settings/settings/ /root/devonfw-settings/settings.git
+
+git add -A
+git commit -m "."
