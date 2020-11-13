@@ -5,7 +5,7 @@
   "details": {
     "steps": [
       {
-        "title": "Install Devon IDE",
+        "title": "Install devonfw IDE",
         "text": "step1.md"
       },
       {
@@ -28,12 +28,12 @@
           "target": "/root/setup"
         },
         {
-          "file": "setup/cloneDevonIdeSettings.sh",
-          "target": "/root/setup"
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/C:/projects/my-first-project/workspaces/main/tutorial-compiler/build/temp/katacoda/cobigen/setu"
         },
         {
           "file": "setup/setup.sh",
-          "target": "/root/setup"
+          "target": "/root/C:/projects/my-first-project/workspaces/main/tutorial-compiler/build/temp/katacoda/cobigen/setu"
         }
       ]
     }
