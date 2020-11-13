@@ -12,6 +12,6 @@ mv /root/devonfw-settings/settings/ /root/devonfw-settings/settings.git
 
 cd /root/devonfw-settings/settings.git
 git add -A
-git config user.name "-"
-git config user.email "-"
-git commit -m "."
+git config user.email "devonfw"
+git config user.name "devonfw"
+git commit -m "devonfw"
