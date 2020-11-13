@@ -11,4 +11,6 @@ echo $TOOLS > settings/devon.properties
 mv /root/devonfw-settings/settings/ /root/devonfw-settings/settings.git
 
 git add -A
+git config user.name "-"
+git config user.email "-"
 git commit -m "."
