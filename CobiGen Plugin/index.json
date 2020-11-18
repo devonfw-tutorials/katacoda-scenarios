@@ -1,0 +1,52 @@
+{
+  "title": "CobiGen Plugin",
+  "difficulty": "Beginner",
+  "time": "10 Minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install devonfw IDE",
+        "text": "step1.md"
+      },
+      {
+        "title": "Install CobiGen Plugin",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "intro_foreground.sh",
+      "courseData": "intro_background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
+        },
+	{
+	  "file": "cobigen-0.0.1.vsix",
+	  "target": "/root/
+	}
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
