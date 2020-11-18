@@ -3,6 +3,7 @@
 SETUP_FILE="/root/setup/setup.txt"
 STATUS_FILE="/root/setup/status.txt"
 #wait until setup.txt is loaded in katacoda
+echo "Test" > "/root/setup/bla.txt"
 while [ ! -f $SETUP_FILE ]
 do 
 	sleep 1
