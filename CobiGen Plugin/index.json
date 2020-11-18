@@ -5,8 +5,12 @@
   "details": {
     "steps": [
       {
-        "title": "Install CobiGen Plugin",
+        "title": "Install devonfw IDE",
         "text": "step1.md"
+      },
+      {
+        "title": "Install CobiGen",
+        "text": "step2.md"
       }
     ],
     "intro": {
@@ -24,17 +28,13 @@
           "target": "/root/setup"
         },
         {
-          "file": "setup/installCobiGenPlugin.sh",
+          "file": "setup/cloneDevonfwIdeSettings.sh",
           "target": "/root/setup"
         },
         {
           "file": "setup/setup.sh",
           "target": "/root/setup"
-        },
-		{
-		  "file": "setup/cobigen-0.0.1.vsix",
-		  "target": "/root/setup"
-		}
+        }
       ]
     }
   },
