@@ -1,5 +1,4 @@
 #!/bin/sh
-
 SETUP_FILE="/root/setup/setup.txt"
 STATUS_FILE="/root/setup/status.txt"
 BLA="/root/setup/test.txt"
