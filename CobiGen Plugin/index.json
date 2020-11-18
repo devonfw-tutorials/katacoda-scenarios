@@ -31,10 +31,10 @@
           "file": "setup/setup.sh",
           "target": "/root/setup"
         },
-	{
-	  "file": "setup/cobigen-0.0.1.vsix",
-	  "target": "/root/setup"
-	}
+		{
+		  "file": "setup/cobigen-0.0.1.vsix",
+		  "target": "/root/setup"
+		}
       ]
     }
   },
