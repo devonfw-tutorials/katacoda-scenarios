@@ -3,6 +3,6 @@
 Clone devonfw IDE settings
 cloneDevonfwIdeSettings.sh
 ##########
-Install CobiGen Plugin
+Install CobiGen plugin
 installCobiGenPlugin.sh
 ##########
