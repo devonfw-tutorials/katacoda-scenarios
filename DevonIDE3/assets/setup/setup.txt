@@ -1,4 +1,4 @@
-1
+2
 
 Clone devonfw IDE settings
 cloneDevonfwIdeSettings.sh
