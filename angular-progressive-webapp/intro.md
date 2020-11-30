@@ -6,6 +6,6 @@ Speed: When an users opens an application, he or she will expect it to load almo
 
 PWAs uses a script called service worker(https://developers.google.com/web/fundamentals/primers/service-workers/), which runs in background and essentially act as proxy between web app and network, intercepting requests and acting depending on the network conditions.
 
-Sample application
+# Sample application
 
 ![Katacoda Logo](./assets/mts-pwa-rec.png)

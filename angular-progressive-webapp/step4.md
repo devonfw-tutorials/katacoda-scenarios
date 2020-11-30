@@ -16,16 +16,18 @@ This file is also used to reload the app if there are any changes.
 
 -SwUpdate: This object comes inside the @angular/pwa package and it is used to detect changes and reload the page if needed.
 
-`...
-import { SwUpdate } from '@angular/service-worker';
+```
+  ...
+  import { SwUpdate } from '@angular/service-worker';
 
-export class AppComponent implements OnInit {
+  export class AppComponent implements OnInit {
 
-...
-constructor(updates: SwUpdate, private data: DataService) {
-updates.available.subscribe((event) => {
-updates.activateUpdate().then(() => document.location.reload());
-});
-}
-...
-}`
+  ...
+    constructor(updates: SwUpdate, private data: DataService) {
+      updates.available.subscribe((event) => {
+        updates.activateUpdate().then(() => document.location.reload());
+      });
+    }
+    ...
+  }
+```

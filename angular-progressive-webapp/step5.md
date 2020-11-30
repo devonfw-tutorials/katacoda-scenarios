@@ -18,10 +18,11 @@ The above command completes the following actions:
 
     -Creates the service worker configuration file called ngsw-config.json, which specifies the caching behaviors and other settings.
 
-manifest.json
+# manifest.json
+
 manifest.json is a file that allows to control how the app is displayed in places where native apps are displayed.
 
-Fields
+# Fields
 
 name: Name of the web application.
 
@@ -41,10 +42,11 @@ icons: Array of icons that serve as representations of the web app.
 
 Additional information can be found here.
 
-ngsw-config.json
+# ngsw-config.json
+
 nsgw-config.json specifies which files and data URLs have to be cached and updated by the Angular service worker.
 
-Fields
+# Fields
 
 -index: File that serves as index page to satisfy navigation requests.
 
@@ -89,7 +91,6 @@ Fields
       -timeout: How long the Angular service worker will wait for the network to respond before using a cached response. Same dataformat as maxAge.
 
       -strategy: Caching strategies (performance or freshness).
-
 
 -navigationUrls: List of URLs that will be redirected to the index file.
 
