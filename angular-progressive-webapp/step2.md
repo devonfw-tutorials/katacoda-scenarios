@@ -10,7 +10,8 @@ To retrieve data with this service, you have to import the module HttpClient and
 
 data.service.ts
 
-`...
+```
+...
 import { HttpClient } from '@angular/common/http';
 import { MY_THAI_STAR_DISH } from '../environments/environment';
 ...
@@ -25,12 +26,18 @@ constructor(private http: HttpClient) {}
     ...
 
 }
-`
+```
 
 environments.ts
 
-` ... export const MY_THAI_STAR_DISH = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1'; ... `
+```
+ ... export const MY_THAI_STAR_DISH = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1';
+ ...
+```
 
 environments.prod.ts
 
-` ... export const MY_THAI_STAR_DISH = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1'; ... `
+```
+ ...
+export const MY_THAI_STAR_DISH = 'http://de-mucdevondepl01:8090/api/services/rest/dishmanagement/v1/dish/1'; ... `
+```
