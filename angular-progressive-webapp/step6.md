@@ -1,8 +1,8 @@
-manifest.json
+# manifest.json
 
 Default configuration.
 
-ngsw-config.json
+# ngsw-config.json
 
 At assetGroups → resources → urls: In this field the google fonts api is added in order to use Montserrat font even without network.
 
