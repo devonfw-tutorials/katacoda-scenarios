@@ -26,13 +26,13 @@ export class AppRoutingModule {}
 
 Notice that instead of loading a component, you dynamically import it in a loadChildren attribute because modules acts as gates to access components "inside" them. Updating the app to load lazily has four consecuences:
 
-- 1. No component attribute.
+1. No component attribute.
 
-- 2. No import of FirstComponent.
+2. No import of FirstComponent.
 
-- 3. FirstModule import has to be removed from the imports array at app.module.ts.
+3. FirstModule import has to be removed from the imports array at app.module.ts.
 
-- 4. Change of context.
+4. Change of context.
 
 If we check first-routing.module.ts again, the can see that the path for ContentLeft and ContentRight is set to 'first/second-left' and 'first/second-right' respectively, so writing 'http//localhost:4200/first/second-left' will redirect us to ContentLeft. However, after loading a module with loadChildren setting the path to 'second-left' and 'second-right' is enough because it adquires the context set by AppRoutingModule.
 

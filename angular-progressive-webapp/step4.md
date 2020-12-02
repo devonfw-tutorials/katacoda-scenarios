@@ -14,7 +14,7 @@ app.component.ts
 
 This file is also used to reload the app if there are any changes.
 
--SwUpdate: This object comes inside the @angular/pwa package and it is used to detect changes and reload the page if needed.
+- SwUpdate: This object comes inside the @angular/pwa package and it is used to detect changes and reload the page if needed.
 
 ```
   ...

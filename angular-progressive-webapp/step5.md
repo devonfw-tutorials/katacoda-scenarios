@@ -2,21 +2,21 @@ Install Angular PWA package with ng add @angular/pwa --project <name>. As before
 
 The above command completes the following actions:
 
-1.Adds the @angular/service-worker package to your project.
+1. Adds the @angular/service-worker package to your project.
 
-2.Enables service worker build support in the CLI.
+2. Enables service worker build support in the CLI.
 
-3.Imports and registers the service worker in the app module.
+3. Imports and registers the service worker in the app module.
 
-4.Updates the index.html file:
+4. Updates the index.html file:
 
-    -Includes a link to add the manifest.json file.
+   - Includes a link to add the manifest.json file.
 
-    -Adds meta tags for theme-color.
+   - Adds meta tags for theme-color.
 
-    -Installs icon files to support the installed Progressive Web App (PWA).
+   - Installs icon files to support the installed Progressive Web App (PWA).
 
-    -Creates the service worker configuration file called ngsw-config.json, which specifies the caching behaviors and other settings.
+   - Creates the service worker configuration file called ngsw-config.json, which specifies the caching behaviors and other settings.
 
 # manifest.json
 
@@ -48,50 +48,50 @@ nsgw-config.json specifies which files and data URLs have to be cached and updat
 
 # Fields
 
--index: File that serves as index page to satisfy navigation requests.
+- index: File that serves as index page to satisfy navigation requests.
 
--assetGroups: Resources that are part of the app version that update along with the app.
+- assetGroups: Resources that are part of the app version that update along with the app.
 
-    -name: Identifies the group.
+  - name: Identifies the group.
 
-    -installMode: How the resources are cached (prefetch or lazy).
+  - installMode: How the resources are cached (prefetch or lazy).
 
-    -updateMode: Caching behaviour when a new version of the app is found (prefetch or lazy).
+  - updateMode: Caching behaviour when a new version of the app is found (prefetch or lazy).
 
-    -resources: Resources to cache. There are three groups.
+  - resources: Resources to cache. There are three groups.
 
-      -files: Lists patterns that match files in the distribution directory.
+    - files: Lists patterns that match files in the distribution directory.
 
-      -urls: URL patterns matched at runtime.
+    - urls: URL patterns matched at runtime.
 
--dataGroups: UsefulIdentifies the group. for API requests.
+- dataGroups: UsefulIdentifies the group. for API requests.
 
-    -name: Identifies the group.
+  - name: Identifies the group.
 
-    -urls: URL patterns matched at runtime.
+  - urls: URL patterns matched at runtime.
 
-    -version: Indicates that the resources being cached have been updated in a backwards-incompatible way.
+  - version: Indicates that the resources being cached have been updated in a backwards-incompatible way.
 
-    -cacheConfig: Policy by which matching requests will be cached
+  - cacheConfig: Policy by which matching requests will be cached
 
-      -maxSize: The maximum number of entries, or responses, in the cache.
+    - maxSize: The maximum number of entries, or responses, in the cache.
 
-      -maxAge: How long responses are allowed to remain in the cache.
+    - maxAge: How long responses are allowed to remain in the cache.
 
-        -d: days. (5d = 5 days).
+      - d: days. (5d = 5 days).
 
-        -h: hours
+      - h: hours
 
-        -m: minutes
+      - m: minutes
 
-        -s: seconds. (5m20s = 5 minutes and 20 seconds).
+      - s: seconds. (5m20s = 5 minutes and 20 seconds).
 
-        -u: milliseconds
+      - u: milliseconds
 
-      -timeout: How long the Angular service worker will wait for the network to respond before using a cached response. Same dataformat as maxAge.
+    - timeout: How long the Angular service worker will wait for the network to respond before using a cached response. Same dataformat as maxAge.
 
-      -strategy: Caching strategies (performance or freshness).
+    - strategy: Caching strategies (performance or freshness).
 
--navigationUrls: List of URLs that will be redirected to the index file.
+- navigationUrls: List of URLs that will be redirected to the index file.
 
 Additional information can be found here(https://angular.io/guide/service-worker-config).
