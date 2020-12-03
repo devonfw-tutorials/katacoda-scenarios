@@ -42,10 +42,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "showide": true
+    "uilayout": "vscode-terminal-split"
   },
   "backend": {
-    "imageid": "javascript"
+    "imageid": "vscode"
   }
 }
