@@ -15,11 +15,13 @@ In Angular Material, a theme is created mixing multiple colors. Colors and its l
 - background: Element background
 
 ![Katacoda Logo](./assets/palette.png)
+
 Figure 1. Palettes and variants.
 
 In angular material, a palette is represented as a scss map.
 
 ![Katacoda Logo](./assets/scss-map.png)
+
 Figure 2. Scss map and palettes.
 
 `Some components can be forced to use primary, accent or warn palettes using the attribute color, for example: <mat-toolbar color="primary">.`
@@ -31,15 +33,18 @@ Available prebuilt themes:
 - deeppurple-amber.css
 
 ![Katacoda Logo](./assets/deeppurple-amber.png)
+
 Figure 3. deeppurple-amber theme.
 
 - indigo-pink.css
 
 ![Katacoda Logo](./assets/indigo-pink.png)
+
 Figure 4. indigo-pink theme.
 
 - purple-green.css
   ![Katacoda Logo](./assets/indigo-pink.png)
+
   Figure 6. purple-green theme.
 
 The prebuilt themes can be added using @import:

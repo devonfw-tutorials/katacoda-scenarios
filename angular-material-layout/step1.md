@@ -15,4 +15,5 @@ Once the creation process is complete, open your newly created application in Vi
 Angular will spin up a server and you can check your application by visiting http://localhost:4200/ in your browser.
 
 ![Katacoda Logo](./assets/2-blank-application.png)
+
 Figure 2. Blank application

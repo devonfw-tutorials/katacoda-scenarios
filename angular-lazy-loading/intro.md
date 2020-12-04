@@ -7,6 +7,7 @@ When the development of an application starts, it just contains a small set of f
 To explain how lazy loading is implemented using angular, a basic sample app is going to be developed. This app will consist in a window named "level 1" that contains two buttons that redirects to other windows in a "second level". It is a simple example, but useful to understand the relation between angular modules and lazy loading.
 
 ![Katacoda Logo](./assets/levels-app.png)
+
 Figure 1. Levels app structure.
 This graphic shows that modules acts as gates to access components "inside" them.
 

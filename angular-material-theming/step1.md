@@ -6,9 +6,9 @@ For this topic, we are going to use a basic layout project that can be found in 
 
 So you can clone the repository and go into `AngularMaterialBasicLayout` folder:
 
-- `git clone https://github.com/devonfw/devon4ng.git` {{ execute }}
+- `git clone https://github.com/devonfw/devon4ng.git`{{ execute }}
 
-- `cd devon4ng/samples/AngularMaterialTheming/` {{ execute }}
+- `cd devon4ng/samples/AngularMaterialTheming/`{{ execute }}
 
 # Basics
 
@@ -21,4 +21,5 @@ Before starting writing custom themes, there are some necessary things that have
 - Add @include mat-core(); once per project, so if you are writing multiple themes in multiple files you could import those files from a 'central' one (for example styles.scss). This includes all common styles that are used by multiple components.
 
 ![Katacoda Logo](./assets/theme-files-structure.png)
+
 Figure 7. Theme files structure.

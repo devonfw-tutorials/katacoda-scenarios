@@ -104,4 +104,5 @@ mat-sidenav-container {
 Now we have a working application with a basic layout: a header with some menu and a sidenav with some navigational links.
 
 ![Katacoda Logo](./assets/9-finished.png)
+
 Figure 9. Finished application

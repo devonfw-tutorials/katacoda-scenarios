@@ -61,7 +61,9 @@ h2 {
 The pages look somewhat better now:
 
 ![Katacoda Logo](./assets/6-home-page.png)
+
 Figure 6. Home page
 
 ![Katacoda Logo](./assets/7-data-page.png)
+
 Figure 7. Data page

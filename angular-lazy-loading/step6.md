@@ -3,11 +3,13 @@
 When we compile an app with lazy loaded modules, files containing them will be generated
 
 ![Katacoda Logo](./assets/compile-first-lazy.png)
+
 Figure 7. First level lazy compilation.
 
 And if we go to developer tools → network, we can find those modules loaded (if they are needed).
 
 ![Katacoda Logo](./assets/first-lvl-lazy.png)
+
 Figure 8. First level lazy.
 
 To load the component ContentComponent of SecondLeftModule lazily, we have to load SecondLeftModule as a children of FirstModule:
@@ -60,11 +62,13 @@ export class SecondLeftRoutingModule { }
 - run ng serve to generate files containing the lazy modules.
 
 ![Katacoda Logo](./assets/second-lvl-lazy.png)
+
 Figure 9. Second level lazy loading compilation.
 
 Clicking on [Go to left module] triggers the load of SecondLeftModule.
 
 ![Katacoda Logo](./assets/second-lvl-left-lazy.png)
+
 Figure 10. Second level lazy loading network.
 
 # Conclusion

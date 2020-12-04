@@ -58,5 +58,7 @@ const routes: Routes = [
 If we go to 'first' then FirstModule is situated in '/first' but also its children ContentLeft and ContentRight, so it is not necessary to write in their path 'first/second-left' and 'first/second-right', because that will situate the components on 'first/first/second-left' and 'first/first/second-right'.
 
 ![Katacoda Logo](./assets/first-lvl-wrong-path.png)
+
 Figure 6. First level lazy wrong path.
+
 When we compile an app with lazy loaded modules, files containing them will be generated
