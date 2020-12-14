@@ -27,11 +27,7 @@
           "target": "/root/setup"
         },
         {
-          "file": "setup/cloneDevonfwIdeSettings.sh",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/installCobiGenPlugin.sh",
+          "file": "setup/setupNode.sh",
           "target": "/root/setup"
         },
         {
