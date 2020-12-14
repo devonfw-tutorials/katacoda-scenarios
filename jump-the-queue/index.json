@@ -19,6 +19,26 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/installCobiGenPlugin.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
+        }
+      ]
     }
   },
   "environment": {
