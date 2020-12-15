@@ -1,0 +1,50 @@
+{
+  "title": "Angular Progressive Web App",
+  "description": "Create an angular progressive web app",
+  "difficulty": "Beginner",
+  "time": "20 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1: Create a new project and install Angular PWA package",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2: Create a service",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3: Use the service",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4: Structures, styles and updates",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5: Make it Progressive.",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6: Configure the app",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7: Check that your app is a PWA",
+        "text": "step7.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "vscode"
+  }
+}
