@@ -15,10 +15,28 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "intro_foreground.sh",
+      "courseData": "intro_background.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setupNode.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
+        }
+      ]
     }
   },
   "environment": {
