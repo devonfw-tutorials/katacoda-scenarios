@@ -1,12 +1,14 @@
 Using the current configuration, we have a project that loads all the modules in a eager way. Run ng serve to see what happens.
 
+`ng serve --host 0.0.0.0 --disable-host-check`{{execute}}
+
 First, during the compilation we can see that just a main file is built.
 
 ![Katacoda Logo](./assets/compile-eager.png)
 
 Figure 2. Compile eager.
 
-If we go to http://localhost:4200/first and open developer options (F12 on Chrome), it is found that a document named "first" is loaded.
+If we go to https://[[HOST_SUBDOMAIN]]-4200-[[KATACODA_HOST]].environments.katacoda.com/first and open developer options (F12 on Chrome), it is found that a document named "first" is loaded.
 
 ![Katacoda Logo](./assets/first-lvl-eager.png)
 
