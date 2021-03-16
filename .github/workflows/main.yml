@@ -2,7 +2,7 @@ name: CI
 
 on:
   repository_dispatch:
-    types: [dispatch-katacoda-scenarios-dev]
+    types: [dispatch-katacoda-scenarios]
     
   workflow_dispatch:
 jobs:
