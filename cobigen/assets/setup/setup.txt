@@ -1,0 +1,14 @@
+4
+
+Clone devonfw IDE settings
+cloneDevonfwIdeSettings.sh
+##########
+Restore Devonfw IDE
+restoreDevonfwIde.sh
+##########
+Install CobiGen plugin
+installCobiGenPlugin.sh
+##########
+Install CobiGen plugin
+installCobiGenPlugin.sh
+##########

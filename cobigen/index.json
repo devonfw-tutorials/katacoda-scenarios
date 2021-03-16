@@ -1,0 +1,68 @@
+{
+  "title": "Tutorial for Java Backend Generation with CobiGen",
+  "difficulty": "Beginner",
+  "time": "30 Minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install CobiGen and create Java Project",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a new file",
+        "text": "step3.md"
+      },
+      {
+        "title": "Build the java project",
+        "text": "step4.md"
+      },
+      {
+        "title": "Adapt cobiGen templates",
+        "text": "step5.md"
+      },
+      {
+        "title": "Change Entity and run cobigen again",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "intro_foreground.sh",
+      "courseData": "intro_background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/installCobiGenPlugin.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/restoreDevonfwIde.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "showide": true
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}

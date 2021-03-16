@@ -1,5 +1,0 @@
-1
-
-Setup node version
-setupNode.sh
-##########
