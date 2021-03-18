@@ -1,28 +1,24 @@
 {
-  "title": "Tutorial for Java Backend Generation with CobiGen",
+  "title": "Tutorial for the Jump The Queue Application",
   "difficulty": "Beginner",
-  "time": "30 Minutes",
+  "time": "25 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Install CobiGen and create Java Project",
+        "title": "Clones Repository https://github.com/devonfw/jump-the-queue.git",
         "text": "step2.md"
       },
       {
-        "title": "Create a new file",
+        "title": "Build and Run Java Server",
         "text": "step3.md"
       },
       {
-        "title": "Build the java project",
+        "title": "Install the dependencies",
         "text": "step4.md"
       },
       {
-        "title": "Adapt cobiGen templates",
+        "title": "Serve the Frontend Server",
         "text": "step5.md"
-      },
-      {
-        "title": "Change Entity and run cobigen again",
-        "text": "step6.md"
       }
     ],
     "intro": {

@@ -10,16 +10,15 @@ Run the cobiGen command 'adapt-templates' to generate a new templates folder and
 
 ## CobiGen Java
 
-Open the following java file in the IDE.
-`devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{open}}
 
-You can use the plugin simply via the context menu. Make a right click on the java file (in the explorer on the left or in the editor itself). The context menu will open and you can start the CobiGen Plugin by clicking on 'CobiGen'.
+Start CobiGen CLI and pass the file as parameter by executing the following command.
+`devon cobigen generate cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{execute T1}}
 
-A terminal will open on the bottom of the IDE and CobiGen CLI will start.
+CobiGen will ask you which files to generate. You can enter the numbers separated by commas. 
+`1,3,5,6,8`{{execute T1}}
 
-You can choose the templates CobiGen should use by entering the numbers in the terminal of the IDE.
+CobiGen will now generate code based on the source file and the templates you have passed.
 
-`1,3,5,6,8`
 
 The CobiGen code generator will generate some java classes for you. These contain code for basic CRUD operations, REST service handling and data access.
 
