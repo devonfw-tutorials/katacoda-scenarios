@@ -1,44 +1,52 @@
 {
-  "title": "Tutorial Compiler ",
+  "title": "Create a tutorial with the Tutorial-Compiler",
   "difficulty": "Beginner",
-  "time": "45 Minutes",
+  "time": "55 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Fork the 'tutorial-compiler'-repository and copy the URL",
+        "title": "Fork the tutorials repository",
         "text": "step1.md"
       },
       {
-        "title": "Clones Repository https://github.com/devonfw-tutorials/tutorial-compiler.git",
+        "title": "Clone the repository",
         "text": "step2.md"
       },
       {
-        "title": "Clones Repository https://github.com/devonfw-tutorials/tutorials.git",
+        "title": "Create a new branch",
         "text": "step3.md"
       },
       {
-        "title": "Install typescript",
+        "title": "Create a new file",
         "text": "step4.md"
       },
       {
-        "title": "Create a new file",
+        "title": "Create a pull request",
         "text": "step5.md"
       },
       {
-        "title": "Change index.asciidoc",
+        "title": "Add the title",
         "text": "step6.md"
       },
       {
-        "title": "Change index.asciidoc",
+        "title": "Add the description",
         "text": "step7.md"
       },
       {
-        "title": "Change index.asciidoc",
+        "title": "Add a step",
         "text": "step8.md"
       },
       {
-        "title": "Create a pull request",
+        "title": "Alternative syntax",
         "text": "step9.md"
+      },
+      {
+        "title": "Push tutorial",
+        "text": "step10.md"
+      },
+      {
+        "title": "Local testing",
+        "text": "step11.md"
       }
     ],
     "intro": {
