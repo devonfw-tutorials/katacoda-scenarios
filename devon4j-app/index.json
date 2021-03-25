@@ -1,0 +1,52 @@
+{
+  "title": "devon4j application generation",
+  "difficulty": "Beginner",
+  "time": "15 Minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a new project",
+        "text": "step2.md"
+      },
+      {
+        "title": "Build the java project",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "intro_foreground.sh",
+      "courseData": "intro_background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "setup/setup.txt",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/cloneDevonfwIdeSettings.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/restoreDevonfwIde.sh",
+          "target": "/root/setup"
+        },
+        {
+          "file": "setup/setup.sh",
+          "target": "/root/setup"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showide": false
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
