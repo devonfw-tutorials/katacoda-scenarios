@@ -6,6 +6,8 @@ Switch to the IDE and open the file 'devonfw/workspaces/main/cobigenexample/core
 `devonfw/workspaces/main/cobigenexample/core/src/main/java/com/example/application/cobigenexample/customermanagement/dataaccess/api/CustomerEntity.java`{{open}}
 
 
+
+
 Replace the content in the file as it is shown in the following segment of code.
 
 

@@ -14,6 +14,8 @@ Switch to the IDE and open the file 'tutorials/myTutorial/index.asciidoc'.
 `tutorials/myTutorial/index.asciidoc`{{open}}
 
 
+
+
 Replace the content of the file with the following code.
 
 

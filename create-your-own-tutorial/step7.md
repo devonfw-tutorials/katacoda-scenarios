@@ -6,6 +6,8 @@ Switch to the IDE and open the file 'tutorials/myTutorial/index.asciidoc'.
 `tutorials/myTutorial/index.asciidoc`{{open}}
 
 
+
+
 Replace the content in the file as it is shown in the following segment of code.
 
 

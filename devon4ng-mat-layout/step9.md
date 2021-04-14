@@ -128,6 +128,8 @@ Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout
 `devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.module.ts`{{open}}
 
 
+
+
 Replace the content of the file with the following code.
 
 

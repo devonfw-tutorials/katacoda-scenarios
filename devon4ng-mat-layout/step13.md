@@ -6,6 +6,8 @@ Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout
 `devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.html`{{open}}
 
 
+
+
 Replace the content of the file with the following code.
 
 
@@ -70,6 +72,8 @@ Click on 'Copy to Editor' to change it automatically.
 Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.scss'.
 
 `devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.scss`{{open}}
+
+
 
 
 Replace the content of the file with the following code.

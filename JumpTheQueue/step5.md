@@ -8,6 +8,8 @@ Switch to the IDE and open the file 'devonfw/workspaces/main/jump-the-queue/angu
 `devonfw/workspaces/main/jump-the-queue/angular/src/environments/environment.ts`{{open}}
 
 
+
+
 Replace the content in the file as it is shown in the following segment of code.
 
 
