@@ -8,8 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
+      - name: Wait for parallel workflows to finish
+        uses: softprops/turnstyle@v0.1.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - name: Checkout tutorial-compiler
         uses: actions/checkout@v2
         with:
