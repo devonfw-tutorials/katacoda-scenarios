@@ -1,57 +1,53 @@
 {
-  "title": "Create an Angular application with Angular Material components using devon4ng",
+  "title": "Create your own tutorial",
   "description": "",
   "difficulty": "Beginner",
-  "time": "65 Minutes",
+  "time": "55 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Create Angular Project",
+        "title": "Fork the tutorials repository",
+        "text": "step1.md"
+      },
+      {
+        "title": "Clones Repository https://github.com/devonfw-tutorials/tutorials.git",
         "text": "step2.md"
       },
       {
-        "title": "Install @angular/material @angular/cdk @angular/animations",
+        "title": "Create a new branch",
         "text": "step3.md"
       },
       {
-        "title": "Change app.module.ts",
+        "title": "Create a new file",
         "text": "step4.md"
       },
       {
-        "title": "Change index.html",
+        "title": "Create a pull request",
         "text": "step5.md"
       },
       {
-        "title": "Change styles.scss",
+        "title": "Change index.asciidoc",
         "text": "step6.md"
       },
       {
-        "title": "Change app.component.html",
+        "title": "Change index.asciidoc",
         "text": "step7.md"
       },
       {
-        "title": "Change app.component.scss",
+        "title": "Change index.asciidoc",
         "text": "step8.md"
       },
       {
-        "title": "Create a new file",
+        "title": "Alternative syntax",
         "text": "step9.md"
       },
       {
-        "title": "Change app-routing.module.ts",
+        "title": "Push tutorial",
         "text": "step10.md"
       },
       {
-        "title": "Change app.component.html",
+        "title": "Local testing",
         "text": "step11.md"
-      },
-      {
-        "title": "Change app.component.html",
-        "text": "step12.md"
-      },
-      {
-        "title": "Change app.component.html",
-        "text": "step13.md"
       }
     ],
     "intro": {
@@ -65,15 +61,23 @@
     "assets": {
       "client": [
         {
+          "file": "fork.jpg",
+          "target": ""
+        },
+        {
+          "file": "clone_code.jpg",
+          "target": ""
+        },
+        {
+          "file": "pull_request.jpg",
+          "target": ""
+        },
+        {
+          "file": "compare.jpg",
+          "target": ""
+        },
+        {
           "file": "setup/setup.txt",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/cloneDevonfwIdeSettings.sh",
-          "target": "/root/setup"
-        },
-        {
-          "file": "setup/restoreDevonfwIde.sh",
           "target": "/root/setup"
         },
         {
