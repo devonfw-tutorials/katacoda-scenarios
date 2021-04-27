@@ -1,3 +1,6 @@
+shopt -s dotglob
+shopt -s nullglob
+
 cd playbooks
 SPECIFIED_TUTORIALS=(*/)
 echo "SPECIFIED_TUTORIALS:\n"
