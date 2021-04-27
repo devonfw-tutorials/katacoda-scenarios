@@ -57,4 +57,4 @@ jobs:
           path: repo
           
       - name: publish tutorials
-        run: sh repo/publishTutorials.sh
+        run: bash repo/publishTutorials.sh
