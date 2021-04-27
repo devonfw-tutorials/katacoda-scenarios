@@ -1,7 +1,8 @@
 {
-  "title": "devon4j application generation",
+  "title": "Generate your Java application with devon4j",
+  "description": "",
   "difficulty": "Beginner",
-  "time": "15 Minutes",
+  "time": "20 Minutes",
   "details": {
     "steps": [
       {
@@ -9,8 +10,12 @@
         "text": "step2.md"
       },
       {
-        "title": "Build the java project",
+        "title": "devon4j multilayer architecture",
         "text": "step3.md"
+      },
+      {
+        "title": "Build the java project",
+        "text": "step4.md"
       }
     ],
     "intro": {
@@ -23,6 +28,10 @@
     },
     "assets": {
       "client": [
+        {
+          "file": "devon4j_proj_structure1.jpg",
+          "target": ""
+        },
         {
           "file": "setup/setup.txt",
           "target": "/root/setup"
@@ -43,8 +52,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "showide": false
+    "uilayout": "terminal",
+    "showide": true
   },
   "backend": {
     "imageid": "ubuntu:2004"

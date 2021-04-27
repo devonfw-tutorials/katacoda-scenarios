@@ -1,4 +1,4 @@
-Now build and run the Anguar Server.
+Now build and run the Angular Server.
 The following two steps are only needed in this tutorial. Normally you can simply execute &#34;ng serve&#34;, open the https://localhost:4200/ and start using the app.
 In the next step you need to change the Base URL for the REST Services. 
 

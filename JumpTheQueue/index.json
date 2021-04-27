@@ -1,5 +1,6 @@
 {
-  "title": "Tutorial for the Jump The Queue Application",
+  "title": "Jump start an end-to-end devonfw sample application.",
+  "description": "",
   "difficulty": "Beginner",
   "time": "25 Minutes",
   "details": {
@@ -9,7 +10,7 @@
         "text": "step2.md"
       },
       {
-        "title": "Build and Run Java Server",
+        "title": "Build the java project",
         "text": "step3.md"
       },
       {
@@ -17,7 +18,7 @@
         "text": "step4.md"
       },
       {
-        "title": "Serve the Frontend Server",
+        "title": "Change environment.ts",
         "text": "step5.md"
       }
     ],

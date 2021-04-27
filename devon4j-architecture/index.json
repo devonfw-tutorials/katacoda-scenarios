@@ -1,29 +1,21 @@
 {
-  "title": "Generate your Java backend code with devonfw",
+  "title": "devon4j architecture in practice",
   "description": "",
   "difficulty": "Beginner",
-  "time": "30 Minutes",
+  "time": "20 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Install CobiGen",
+        "title": "devon4j application architecture",
         "text": "step2.md"
       },
       {
-        "title": "Create a new file",
+        "title": "devon4j application layers",
         "text": "step3.md"
       },
       {
-        "title": "Build the java project",
+        "title": "Understand devon4j application architecture",
         "text": "step4.md"
-      },
-      {
-        "title": "Adapt cobiGen templates",
-        "text": "step5.md"
-      },
-      {
-        "title": "Change CustomerEntity.java",
-        "text": "step6.md"
       }
     ],
     "intro": {
@@ -36,6 +28,14 @@
     },
     "assets": {
       "client": [
+        {
+          "file": "jtqj_app_structure.jpg",
+          "target": ""
+        },
+        {
+          "file": "jtqj_detailed_app_structure.jpg",
+          "target": ""
+        },
         {
           "file": "setup/setup.txt",
           "target": "/root/setup"
@@ -56,8 +56,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal",
-    "showide": false
+    "uilayout": "terminal",
+    "showide": true
   },
   "backend": {
     "imageid": "ubuntu:2004"

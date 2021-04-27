@@ -1,5 +1,6 @@
 {
-  "title": "Create a tutorial with the Tutorial-Compiler",
+  "title": "Create your own tutorial",
+  "description": "",
   "difficulty": "Beginner",
   "time": "55 Minutes",
   "details": {
@@ -9,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Clone the repository",
+        "title": "Clones Repository https://github.com/devonfw-tutorials/tutorials.git",
         "text": "step2.md"
       },
       {
@@ -25,15 +26,15 @@
         "text": "step5.md"
       },
       {
-        "title": "Add the title",
+        "title": "Change index.asciidoc",
         "text": "step6.md"
       },
       {
-        "title": "Add the description",
+        "title": "Change index.asciidoc",
         "text": "step7.md"
       },
       {
-        "title": "Add a step",
+        "title": "Change index.asciidoc",
         "text": "step8.md"
       },
       {

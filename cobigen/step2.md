@@ -1,4 +1,3 @@
-For this tutorial an installation of the devonfw IDE is required, which was already set up for you.
 To begin you need to install CobiGen and create a Java Project.
 
 

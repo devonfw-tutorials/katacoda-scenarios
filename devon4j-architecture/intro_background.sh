@@ -43,7 +43,3 @@ echo 'export NG_CLI_ANALYTICS=CI' >> /root/.profile
 echo 'export NG_CLI_ANALYTICS=CI' >> /root/.profile
 
 echo 'export NG_CLI_ANALYTICS=CI' >> /root/.profile
-
-echo 'export NG_CLI_ANALYTICS=CI' >> /root/.profile
-
-echo 'export NODE_OPTIONS="--max-old-space-size=16384"' >> /root/.profile
