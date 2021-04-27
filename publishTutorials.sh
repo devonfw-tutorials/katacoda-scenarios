@@ -1,3 +1,5 @@
+#!/bin/bash
+
 shopt -s dotglob
 shopt -s nullglob
 
