@@ -1,14 +1,14 @@
 #!/bin/bash
 
-shopt -s dotglob
-shopt -s nullglob
-
 cd playbooks
-SPECIFIED_TUTORIALS=(*/)
+SPECIFIED_TUTORIALS=()
+for dir in */; do SPECIFIED_TUTORIALS+=("${dir::-1}"); done
 echo "SPECIFIED_TUTORIALS:\n"
 printf "%s\n" "${SPECIFIED_TUTORIALS[@]}"
+
 cd ../repo
-ONLINE_TUTORIALS=(*/)
+ONLINE_TUTORIALS=()
+for dir in */; do ONLINE_TUTORIALS+=("${dir::-1}"); done
 echo "ONLINE_TUTORIALS:\n"
 printf "%s\n" "${ONLINE_TUTORIALS[@]}"
 
@@ -22,7 +22,8 @@ do
 done
 
 cd ../build/output/katacoda
-GENERATED_TUTORIALS=(*/)
+GENERATED_TUTORIALS=()
+for dir in */; do GENERATED_TUTORIALS+=("${dir::-1}"); done
 echo "GENERATED_TUTORIALS:\n"
 printf "%s\n" "${GENERATED_TUTORIALS[@]}"
 cd ../../..
