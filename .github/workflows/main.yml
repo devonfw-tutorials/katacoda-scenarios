@@ -30,7 +30,7 @@ jobs:
         run: npm install
 
       - name: run buildRun.sh
-        run: sh buildRun.sh -e katacoda
+        run: sh buildRun.sh -e katacoda -p ${{ github.event.client_payload.tutorial }}
 
       - name: Checkout
         uses: actions/checkout@v2
