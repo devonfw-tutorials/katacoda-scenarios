@@ -33,3 +33,7 @@ swapon /root/dev/md-0
 #write 'Finished' in status file
 #the setup script checks the status file for this string
 echo "Finished" > $STATUS_FILE
+
+echo 'export NG_CLI_ANALYTICS=CI' >> /root/.profile
+
+echo 'export NODE_OPTIONS="--max-old-space-size=16384"' >> /root/.profile
