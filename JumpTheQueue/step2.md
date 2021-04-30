@@ -1,13 +1,32 @@
-First, clone the Jump-The-Queue Repository.
 
 
-Please change the folder to &#39;devonfw/workspaces/main&#39;.
+Please change the folder to &#39;jump-the-queue/java/jtqj&#39;.
 
-`cd devonfw/workspaces/main`{{execute T1}}
+`cd jump-the-queue/java/jtqj`{{execute T1}}
+ 
+Use the following devon command to build the java project.
+
+`devon mvn clean install`{{execute T1}}
+
+The maven command 'clean' will clear the target directory beforehand. 
 
 
 
-Now clone the repository to your local directory.
 
-`git clone https://github.com/devonfw/jump-the-queue.git`{{execute T1}}
 
+
+Now you have to open another terminal. Click on the cd command twice and you will change to &#39;devonfw/workspaces/main/jump-the-queue/java/jtqj/server&#39; in terminal 2 automatically. Alternatively you can click on the + next to &#39;IDE&#39;, choose the option &#39;Open New Terminal&#39; and run the cd command afterwards. 
+
+
+`cd devonfw/workspaces/main/jump-the-queue/java/jtqj/server`{{execute T2}}
+
+Start the server in terminal 2 by running the maven command 'mvn spring-boot:run'.
+
+Because this terminal runs the server we will not use it for any other command.
+ 
+
+`devon mvn spring-boot:run`{{execute T2 }}
+
+This will take some time.
+
+Now the Java Server should be running.

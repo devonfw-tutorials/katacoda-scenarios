@@ -7,19 +7,23 @@
     "steps": [
       {
         "title": "Clones Repository https://github.com/devonfw/jump-the-queue.git",
-        "text": "step2.md"
+        "text": "step1.md"
       },
       {
         "title": "Build the java project",
-        "text": "step3.md"
+        "text": "step2.md"
+      },
+      {
+        "title": "Start the java server",
+        "text": "step2.md"
       },
       {
         "title": "Install the dependencies",
-        "text": "step4.md"
+        "text": "step3.md"
       },
       {
         "title": "Change environment.ts",
-        "text": "step5.md"
+        "text": "step4.md"
       }
     ],
     "intro": {
