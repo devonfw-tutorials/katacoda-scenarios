@@ -1,19 +1,18 @@
 
 
-If you want to add some additional text after the step to explain the results of a step then you have to use the following syntax.
+You now have a working tutorial.
 
-```
-====
-The explanation for the step
-[step]
---
-functionName(parameters)
---
-The explanation of the results
-====
-```
+Push the changes again to GitHub by executing the following commands:
 
-Here the whole block has to be surrounded by `====`.
+1. &#39;git add .&#39; 
+2. &#39;git commit -m &#34;added createFile step to the tutorial&#34;&#39;
+3. &#39;git push&#39;
+
+This will automatically start the workflow in the tutorials repository.
+
+After a while you can find your tutorial on https://katacoda.com/devonfw-dev.
+
+After you have completed your tutorial and tested it on the katacoda account, remove the &#39;WIP&#39; from your pull request to show that the tutorial is finished.
 
 
 

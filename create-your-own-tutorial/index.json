@@ -7,22 +7,26 @@
     "steps": [
       {
         "title": "Fork the tutorials repository",
-        "text": "step1.md"
+        "text": "step0.md"
       },
       {
         "title": "Clones Repository https://github.com/devonfw-tutorials/tutorials.git",
-        "text": "step2.md"
+        "text": "step1.md"
       },
       {
         "title": "Create a new branch",
-        "text": "step3.md"
+        "text": "step2.md"
       },
       {
         "title": "Create a new file",
-        "text": "step4.md"
+        "text": "step3.md"
       },
       {
         "title": "Create a pull request",
+        "text": "step4.md"
+      },
+      {
+        "title": "Change index.asciidoc",
         "text": "step5.md"
       },
       {
@@ -34,20 +38,16 @@
         "text": "step7.md"
       },
       {
-        "title": "Change index.asciidoc",
+        "title": "Alternative syntax",
         "text": "step8.md"
       },
       {
-        "title": "Alternative syntax",
+        "title": "Push tutorial",
         "text": "step9.md"
       },
       {
-        "title": "Push tutorial",
-        "text": "step10.md"
-      },
-      {
         "title": "Local testing",
-        "text": "step11.md"
+        "text": "step10.md"
       }
     ],
     "intro": {
