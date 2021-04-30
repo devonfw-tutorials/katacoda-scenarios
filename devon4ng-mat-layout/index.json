@@ -7,38 +7,46 @@
     "steps": [
       {
         "title": "Create Angular Project",
-        "text": "step2.md"
+        "text": "step1.md"
+      },
+      {
+        "title": "Start the Angular Project",
+        "text": "step1.md"
       },
       {
         "title": "Install @angular/material @angular/cdk @angular/animations",
-        "text": "step3.md"
+        "text": "step2.md"
       },
       {
         "title": "Change app.module.ts",
-        "text": "step4.md"
+        "text": "step3.md"
       },
       {
         "title": "Change index.html",
-        "text": "step5.md"
+        "text": "step4.md"
       },
       {
         "title": "Change styles.scss",
-        "text": "step6.md"
+        "text": "step5.md"
       },
       {
         "title": "Change app.component.html",
-        "text": "step7.md"
+        "text": "step6.md"
       },
       {
         "title": "Change app.component.scss",
-        "text": "step8.md"
+        "text": "step7.md"
       },
       {
         "title": "Create a new file",
-        "text": "step9.md"
+        "text": "step8.md"
       },
       {
         "title": "Change app-routing.module.ts",
+        "text": "step9.md"
+      },
+      {
+        "title": "Change app.component.html",
         "text": "step10.md"
       },
       {
@@ -48,10 +56,6 @@
       {
         "title": "Change app.component.html",
         "text": "step12.md"
-      },
-      {
-        "title": "Change app.component.html",
-        "text": "step13.md"
       }
     ],
     "intro": {

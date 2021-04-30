@@ -1,9 +1,9 @@
-Let us set up the routing such that when we visit the root url we see the `HomeComponent` and when we visit `/data` url we see the `DataComponent`. We had opted for routing while creating the application, so we have the routing module `app-routing.module.ts` setup for us. In this file, we have the empty routes array where we set up our routes:
+We need to provide a hook where the components will be loaded when their respective URLs are loaded. We do that by using the `router-outlet` directive in the `app.component.html`:
 
 
-Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout/src/app/app-routing.module.ts'.
+Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.html'.
 
-`devonfw/workspaces/main/devon4ng-mat-layout/src/app/app-routing.module.ts`{{open}}
+`devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.html`{{open}}
 
 
 
@@ -13,21 +13,26 @@ Replace the content of the file with the following code.
 
 Click on 'Copy to Editor' to change it automatically.
 
-<pre class="file" data-filename="devonfw/workspaces/main/devon4ng-mat-layout/src/app/app-routing.module.ts" data-target="replace" data-marker="">
-import { NgModule } from &#39;@angular/core&#39;;
-import { Routes, RouterModule } from &#39;@angular/router&#39;;
-import { HomeComponent } from &#39;./pages/home/home.component&#39;;
-import { DataComponent } from &#39;./pages/data/data.component&#39;;
+<pre class="file" data-filename="devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.html" data-target="replace" data-marker="">
+&lt;mat-toolbar color=&#34;primary&#34;&gt;
+  &lt;button mat-icon-button aria-label=&#34;menu&#34; class=&#34;menu&#34;&gt;
+    &lt;mat-icon&gt;menu&lt;/mat-icon&gt;
+  &lt;/button&gt;
+  &lt;button mat-button [matMenuTriggerFor]=&#34;submenu&#34;&gt;Menu 1&lt;/button&gt;
+  &lt;button mat-button&gt;Menu 2&lt;/button&gt;
+  &lt;button mat-button&gt;Menu 3&lt;/button&gt;
 
-const routes: Routes = [
-  { path: &#39;&#39;, component: HomeComponent },
-  { path: &#39;data&#39;, component: DataComponent }
-];
+  &lt;mat-menu #submenu=&#34;matMenu&#34;&gt;
+    &lt;button mat-menu-item&gt;Sub-menu 1&lt;/button&gt;
+    &lt;button mat-menu-item [matMenuTriggerFor]=&#34;submenu2&#34;&gt;Sub-menu 2&lt;/button&gt;
+  &lt;/mat-menu&gt;
 
-@NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-})
-export class AppRoutingModule { }
-</pre>
+  &lt;mat-menu #submenu2=&#34;matMenu&#34;&gt;
+    &lt;button mat-menu-item&gt;Menu Item 1&lt;/button&gt;
+    &lt;button mat-menu-item&gt;Menu Item 2&lt;/button&gt;
+    &lt;button mat-menu-item&gt;Menu Item 3&lt;/button&gt;
+  &lt;/mat-menu&gt;
+
+&lt;/mat-toolbar&gt;
+&lt;router-outlet&gt;&lt;/router-outlet&gt;</pre>
 

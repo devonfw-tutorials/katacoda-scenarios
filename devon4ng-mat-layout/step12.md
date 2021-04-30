@@ -1,4 +1,4 @@
-Let us finally create the sidenav. To implement the sidenav we need to use 3 Angular Material components: `mat-sidenav-container`, `mat-sidenav` and `mat-sidenav-content`. The `mat-sidenav-container`, as the name suggests, acts as a container for the `sidenav` and the associated content. So it is the parent element, and `mat-sidenav` and `mat-sidenav-content` are the children sibling elements. `mat-sidenav` represents the sidenav. We can put any content we want, though it is usually used to conatain a list of navigational links. The `mat-sidenav-content` element is for conataining our main page content. Since we need the `sidenav` application-wide, we will put it in the `app.component.html`
+The sidenav’s width will be corrected when we add the navigational links to it. That is the only thing remaining to be done. Lets implement it now:
 
 
 Switch to the IDE and open the file 'devonfw/workspaces/main/devon4ng-mat-layout/src/app/app.component.html'.
@@ -35,9 +35,33 @@ Click on 'Copy to Editor' to change it automatically.
 
 &lt;/mat-toolbar&gt;
 &lt;mat-sidenav-container&gt;
-  &lt;mat-sidenav mode=&#34;over&#34; [disableClose]=&#34;false&#34; #sidenav&gt;
-    Sidenav
-  &lt;/mat-sidenav&gt;
+  &lt;mat-sidenav [disableClose]=&#34;false&#34; mode=&#34;over&#34; #sidenav&gt;
+    &lt;mat-nav-list&gt;
+        &lt;a
+          id=&#34;home&#34;
+          mat-list-item
+          [routerLink]=&#34;[&#39;./&#39;]&#34;
+          (click)=&#34;sidenav.close()&#34;
+          routerLinkActive=&#34;active&#34;
+          [routerLinkActiveOptions]=&#34;{exact: true}&#34;
+        &gt;
+          &lt;mat-icon matListAvatar&gt;home&lt;/mat-icon&gt;
+          &lt;h3 matLine&gt;Home&lt;/h3&gt;
+          &lt;p matLine&gt;sample home page&lt;/p&gt;
+        &lt;/a&gt;
+        &lt;a
+          id=&#34;sampleData&#34;
+          mat-list-item
+          [routerLink]=&#34;[&#39;./data&#39;]&#34;
+          (click)=&#34;sidenav.close()&#34;
+          routerLinkActive=&#34;active&#34;
+        &gt;
+          &lt;mat-icon matListAvatar&gt;grid_on&lt;/mat-icon&gt;
+          &lt;h3 matLine&gt;Data&lt;/h3&gt;
+          &lt;p matLine&gt;sample data page&lt;/p&gt;
+        &lt;/a&gt;
+      &lt;/mat-nav-list&gt;
+    &lt;/mat-sidenav&gt;
   &lt;mat-sidenav-content&gt;
     &lt;router-outlet&gt;&lt;/router-outlet&gt;
   &lt;/mat-sidenav-content&gt;
@@ -67,5 +91,13 @@ mat-sidenav-container {
     left: 0;
     right: 0;
     bottom: 0;
+    a.active {
+        background: #8e8d8d;
+        color: #fff;
+
+        p {
+            color: #4a4a4a;
+        }
+    }
 }</pre>
 
