@@ -1,33 +1,18 @@
-### Create devon4j sample application
 
-If you want to create devon4j application on your local machine there are two ways to do it:
-* In eclipse as shown [here](https://devonfw.com/website/pages/docs/devon4j.asciidoc_tutorials.html#tutorial-newapp.asciidoc_from-eclipse)
-* Using command line as shown [here](https://devonfw.com/website/pages/docs/devon4j.asciidoc_tutorials.html#tutorial-newapp.asciidoc_from-command-line)
 
-Now, we will create sample devon4j application with name *sampleapp*. This step will guide you on how to do it.
+![devon4j_proj_structure1.jpg](./assets/devon4j_proj_structure1.jpg)
 
 
 
-## Setting up your java project
+As shown in above image,devon4j application follows [multilayered architecture](https://en.wikipedia.org/wiki/Multitier_architecture).
 
-Please change the folder to &#39;devonfw/workspaces/main&#39;.
+Each component is divided into following layers:
+* [client layer](https://github.com/devonfw/devon4j/blob/master/documentation/guide-client-layer.asciidoc) for the front-end (GUI).
 
-`cd devonfw/workspaces/main`{{execute T1}}
+* [service layer](https://github.com/devonfw/devon4j/blob/master/documentation/guide-service-layer.asciidoc) for the services used to expose functionality of the back-end to the client or other consumers. For example, in sampleapp we generated com.example.application.sampleapp.&lt;componentname&gt;.service.impl will have all rest service implementation.
 
-Now you can use devonfw to setup a java project for you by executing the following devon command.
+* [batch layer](https://github.com/devonfw/devon4j/blob/master/documentation/guide-batch-layer.asciidoc) for exposing functionality in batch-processes (e.g. mass imports).
 
-`devon java create com.example.application.sampleapp`{{execute T1}}
+* [logic layer](https://github.com/devonfw/devon4j/blob/master/documentation/guide-logic-layer.asciidoc) for the business logic. For example, in sampleapp we generated com.example.application.sampleapp.&lt;componentname&gt;.logic will contain business logic or usecase implementation.
 
-Once sampleapp is created switch to next tab of IDE. In IDE explorer you can see folder structure like devonfw-&gt; workspaces-&gt;main-&gt;sampleapp . 
-
-sampleapp contains 3 modules i.e api, core and server.
-
-**api**: It contains API for sampleapp.The API contains the required artifacts to interact with your application via remote services. This can be REST service interfaces, transfer-objects with their interfaces and datatypes but also OpenAPI or gRPC contracts.
-
-**core**: It is the core of the application.In this module you can write actual business logic with service implementation, as well as entire logic layer and dataaccess layer.
-
-**batch**: optional module for batch layer. In this example we have not created it. To add batch module while generating from commandline use -Dbatch=batch parameter. And to generate it from eclipse using mave archetype enter batch variable value as batch in project creation page.
-
-**server**: This module bundles the entire app (core with optional batch) typically as a bootified WAR file.
-
-If you want to know more about modules and project structure refer [here](https://github.com/devonfw/devon4j/blob/master/documentation/guide-structure.asciidoc#project-structure).
+* [data-access layer](https://github.com/devonfw/devon4j/blob/master/documentation/guide-dataaccess-layer.asciidoc) for the data access (esp. persistence).For example, in sampleapp we generated com.example.application.sampleapp.&lt;compoenntname&gt;.dataaccess will contain entity, repositories etc.

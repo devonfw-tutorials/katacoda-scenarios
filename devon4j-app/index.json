@@ -7,15 +7,15 @@
     "steps": [
       {
         "title": "Create a new project",
-        "text": "step2.md"
+        "text": "step1.md"
       },
       {
         "title": "devon4j multilayer architecture",
-        "text": "step3.md"
+        "text": "step2.md"
       },
       {
         "title": "Build the java project",
-        "text": "step4.md"
+        "text": "step3.md"
       }
     ],
     "intro": {
