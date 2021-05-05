@@ -7,7 +7,7 @@
     "steps": [
       {
         "title": "Install devonfw IDE",
-        "text": "step1.md"
+        "text": "step0.md"
       }
     ],
     "intro": {
