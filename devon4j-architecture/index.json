@@ -2,9 +2,13 @@
   "title": "devon4j architecture in practice",
   "description": "",
   "difficulty": "Beginner",
-  "time": "20 Minutes",
+  "time": "25 Minutes",
   "details": {
     "steps": [
+      {
+        "title": "Clones Repository https://github.com/devonfw/jump-the-queue.git",
+        "text": "step1.md"
+      },
       {
         "title": "devon4j application architecture",
         "text": "step2.md"

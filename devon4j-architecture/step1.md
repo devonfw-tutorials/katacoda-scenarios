@@ -1,3 +1,6 @@
+### Clone jump the queue repository
+
+First, clone the Jump-The-Queue Repository.Jump the queue is a sample devonfw application.
 
 
 Please change the folder to &#39;devonfw/workspaces/main&#39;.
