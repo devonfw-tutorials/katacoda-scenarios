@@ -16,7 +16,7 @@ Please change the folder to &#39;devonfw/workspaces/main&#39;.
 
 Now you can use devonfw to setup a java project for you by executing the following devon command.
 
-`devon java create com.example.application.sampleapp`{{execute T1}}
+`devon java create sampleapp`{{execute T1}}
 
 Once sampleapp is created switch to next tab of IDE. In IDE explorer you can see folder structure like devonfw-&gt; workspaces-&gt;main-&gt;sampleapp . 
 
