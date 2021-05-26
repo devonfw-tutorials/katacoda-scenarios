@@ -12,11 +12,10 @@ function publishCourses() {
                     var coursesJson = JSON.parse(fs.readFileSync(path.join(__dirname,'playbooks', file)));
                     var courses = coursesJson.courses;
                     fs.mkdir(destDir);
-                    console.log(destDir);
                     var srcDir = path.join(__dirname,'tutorial-compiler','build','output','katacoda');
                     fs.copyFile(path.join(__dirname,'tutorials', file), path.join(file));
                     for(var i = 0; i < courses.length; i++){
-                        console.log(courses[i].course_id);
+                        console.log('Copy', courses[i].course_id);
                         fs.copySync(path.join(srcDir, courses[i].course_id), path.join(destDir,courses[i].course_id));
                     }
                 }
