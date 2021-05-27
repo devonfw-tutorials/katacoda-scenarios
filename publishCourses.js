@@ -1,6 +1,6 @@
 const fs = require("fs-extra"); 
 const child_process = require("child_process");
-const path = require('path')
+const path = require('path');
 
 function publishCourses() {
     try{
@@ -12,6 +12,9 @@ function publishCourses() {
                     var courses = coursesJson.courses;
                     var srcDir = path.join(__dirname,'tutorial-compiler','build','output','katacoda');
                     var destDir = path.join(__dirname, file.replace('-pathway.json', ''));
+                    if(fs.existsSync(destDir)){
+                        fs.rmSync(destDir, { recursive: true })
+                    }
                     fs.mkdir(path.join(__dirname, destDir));
                     fs.copyFile(path.join(__dirname,'tutorials', file), path.join(__dirname, file));
                     for(var i = 0; i < courses.length; i++){
