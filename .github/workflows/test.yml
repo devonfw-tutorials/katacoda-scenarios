@@ -9,14 +9,5 @@ jobs:
   build:
     runs-on: ubuntu-lates
     steps:
-      - name: Checkout tutorial-compiler
-        uses: actions/checkout@v2
-        with:
-          repository: devonfw-tutorials/tutorial-compiler
-      - name: Checkout playbooks
-        uses: actions/checkout@v2
-        with:
-          repository: devonfw-tutorials/tutorials
-          path: playbooks
       - name: echo env
         run: echo ${{ github.event.client_payload.tutorial }}
