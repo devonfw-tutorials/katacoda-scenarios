@@ -39,7 +39,7 @@ function publish(){
         //TODO UPDATE changed scenarios only
         SPECIFIED_SCENARIOS.forEach( scenario => {
             if(! usedScenarios.includes(scenario)){
-                createScenarios(scenario);
+                createScenario(scenario);
             }
         });
         
@@ -47,6 +47,10 @@ function publish(){
         fs.copySync(TEMP_COURSES, SCENARIOS + "/.");
         fs.copySync(TEMP_FILES, SCENARIOS + "/.");
 
+        let NEW_ONLINE_COURSES = getCourses(SCENARIOS);
+        let NEW_ONLINE_SCENARIOS = getScenarios(SCENARIOS);
+        console.log("ALL COURSES", NEW_ONLINE_COURSES)
+        console.log("ALL SCENARIO- AND COURSE-FOLDERS", NEW_ONLINE_SCENARIOS);
     }
 
     catch(e) {
@@ -108,7 +112,7 @@ function createCourse(coursefile){
     
 }
 
-function createScenarios(scenario){
+function createScenario(scenario){
     const genScenariosDir = path.join(COMPILER, 'build', 'output', 'katacoda');
     folderNames.push(scenario);
     fs.copySync(path.join(genScenariosDir, scenario), path.join(TEMP_FILES, scenario));
