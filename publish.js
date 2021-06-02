@@ -1,12 +1,10 @@
 const path = require('path');
 const fs = require('fs-extra');
 const child_process = require("child_process");
-const { rmSync } = require('fs-extra');
 
-
-const SCENARIOS = path.join(process.argv[2], 'katacoda-scenarios');
-const PLAYBOOKS = path.join(process.argv[2], 'tutorials');
-const COMPILER = path.join(process.argv[2], 'tutorial-compiler');
+const SCENARIOS = path.join(process.argv[2], 'repo');
+const PLAYBOOKS = path.join(process.argv[2], 'playbooks');
+const COMPILER = path.join(process.argv[2], 'compiler');
 
 const TEMP = path.join(process.argv[2], 'temp');
 const TEMP_COURSES = path.join(process.argv[2], 'temp', 'courses');
