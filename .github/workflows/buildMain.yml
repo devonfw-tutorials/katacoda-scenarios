@@ -41,7 +41,7 @@ jobs:
         run: |
           cd repo
           npm install
-          ls
+          ls $GITHUB_WORKSPACE
           
           
       - name: publish tutorials and courses $GITHUB_WORKSPACE
