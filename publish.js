@@ -3,8 +3,8 @@ const fs = require('fs-extra');
 const child_process = require("child_process");
 
 const SCENARIOS = path.join(process.argv[2], 'repo');
-const PLAYBOOKS = path.join(process.argv[2], 'playbooks');
 const COMPILER = path.join(process.argv[2], 'compiler');
+const PLAYBOOKS = path.join(COMPILER, 'playbooks');
 
 const TEMP = path.join(process.argv[2], 'temp');
 const TEMP_COURSES = path.join(process.argv[2], 'temp', 'courses');
