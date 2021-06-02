@@ -44,6 +44,9 @@ function publish(){
         fs.copySync(TEMP_COURSES, SCENARIOS + "/.");
         fs.copySync(TEMP_FILES, SCENARIOS + "/.");
 
+        const GENERATED_SCENARIOS = getScenarios(path.join(COMPILER, 'build', 'output', 'katacoda'));
+
+        console.log(GENERATED_SCENARIOS);
     }
 
     catch(e) {
