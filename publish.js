@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs-extra');
 const child_process = require("child_process");
+const { createDecipher } = require('crypto');
 
 const SCENARIOS = path.join(process.argv[2], 'repo');
 const COMPILER = path.join(process.argv[2], 'compiler');
@@ -83,7 +84,7 @@ function updateCourseFiles(){
 function generateNewScenarios(){
     let cp = child_process.spawnSync(`bash buildRun.sh -e katacoda`, { shell: true, cwd: COMPILER, encoding: 'utf-8' });
     if(!fs.existsSync(path.join(COMPILER, 'build', 'output', 'katacoda'))) {
-        console.log("ERROR[generateNewScenarios]: "cp);
+        console.log("ERROR[generateNewScenarios]: ", cp);
         return "";
     }
 }
@@ -102,7 +103,7 @@ function createCourse(coursefile){
     courseJson.courses.forEach(scenario => {
         fs.copySync(path.join(genScenariosDir, scenario.course_id), path.join(TEMP_COURSES, courseDirName, scenario.course_id));
         if(!fs.existsSync(path.join(TEMP_COURSES, courseDirName, scenario.course_id))) {
-            console.log(cp);
+            console.log('Copying', scenario.course_id, 'to', courseDirName, 'failed');
             return "";
         }
         if(!usedScenarios.includes(scenario.course_id)){
