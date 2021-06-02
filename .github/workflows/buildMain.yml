@@ -20,6 +20,11 @@ jobs:
           repository: devonfw-tutorials/tutorials
           path: playbooks
       
+      - name: run buildRun.sh
+        run: |
+        cd compiler
+        sh buildRun.sh -e katacoda
+        
       - uses: actions/setup-node@v2-beta
       - name: install TS
         run: |

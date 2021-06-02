@@ -31,7 +31,7 @@ function publish(){
         updateCourseFiles();
 
         //TODO GENERATE changed tutorials only
-        generateNewScenarios();
+        //generateNewScenarios();
         
         //TODO UPDATE changed courses only
         SPECIFIED_COURSES.forEach(course =>{
