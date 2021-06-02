@@ -1,0 +1,47 @@
+name: Publish 
+
+on:
+  repository_dispatch:
+    types: [dispatch-katacoda-scenarios]
+  pull_request: 
+    branch: [master]
+    
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tutorial-compiler
+        uses: actions/checkout@v2
+        with:
+          repository: devonfw-tutorials/tutorial-compiler
+          path: compiler
+      
+      - name: Checkout playbooks
+        uses: actions/checkout@v2
+        with:
+          repository: devonfw-tutorials/tutorials
+          path: playbooks
+      
+      - uses: actions/setup-node@v2-beta
+      - name: install TS
+        run: |
+        cd compiler
+        npm install typescript
+
+      
+      - name: npm install
+        run: 
+        cd compiler
+        npm install
+
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          path: repo
+          
+      - name: publish tutorials and courses $GITHUB_WORKSPACE
+        run: | 
+        node repo/publish.js $GITHUB_WORKSPACE
+        ls repo
