@@ -71,7 +71,7 @@ function updateCourseFiles(){
 }
 
 function generateNewScenarios(){
-    let cp = child_process.spawnSync(`bash localBuildRun.sh -e katacoda`, { shell: true, cwd: COMPILER, encoding: 'utf-8' });
+    let cp = child_process.spawnSync(`bash buildRun.sh -e katacoda`, { shell: true, cwd: COMPILER, encoding: 'utf-8' });
     if(!fs.existsSync(path.join(COMPILER, 'build', 'output', 'katacoda'))) {
         console.log(cp);
         return "";

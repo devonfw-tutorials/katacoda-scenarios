@@ -42,7 +42,7 @@ jobs:
           npm install
           
           
-      - name: publish tutorials and courses ${GITHUB_WORKSPACE}
+      - name: publish tutorials and courses $GITHUB_WORKSPACE
         run: | 
           node repo/publish.js $GITHUB_WORKSPACE
           ls repo
