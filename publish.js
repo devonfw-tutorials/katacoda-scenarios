@@ -26,18 +26,21 @@ function publish(){
         createFolder(TEMP_FILES);
 
         //TODO UPDATE changed course files only
+        //ISSUE #24
         updateCourseFiles();
 
         //TODO GENERATE changed tutorials only
+        //ISSUE #25
         generateNewScenarios();
         
         //TODO UPDATE changed courses only
-    
+        //ISSUE #26
         SPECIFIED_COURSES.forEach(course =>{
             createCourse(course);
         });
 
         //TODO UPDATE changed scenarios only
+        //ISSUE #27
         SPECIFIED_SCENARIOS.forEach( scenario => {
             if(! usedScenarios.includes(scenario)){
                 createScenario(scenario);
@@ -124,7 +127,7 @@ function createScenario(scenario){
 
 function cleanUp(){
     const ONLINE_COURSES = getCourses(SCENARIOS); 
-    const ONLINE_SCENARIOS = getScenarios(SCENARIOS);
+    const ONLINE_FOLDERS = getScenarios(SCENARIOS);
 
     ONLINE_COURSES.forEach(coursefile => {
         course = coursefile.replace('-pathway.json');
@@ -134,7 +137,7 @@ function cleanUp(){
         }
     });
 
-    ONLINE_SCENARIOS.forEach(scenario => {
+    ONLINE_FOLDERS.forEach(scenario => {
         if(! folderNames.includes(scenario)){
             fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
             console.log(scenario, "doesn't exist anymore in the tutorials repository." );
@@ -142,10 +145,12 @@ function cleanUp(){
     });
 
     //TODO Filter only newly generated folders
-    ONLINE_COURSES.forEach(scenario => {
+    //ISSUE #25 #26
+    ONLINE_FOLDERS.forEach(scenario => {
         fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
         console.log(scenario, "removed to replace it with build." );
     });
+
 
 }
 
@@ -154,7 +159,7 @@ function getScenarios(dirname){
     let folders = fs.readdirSync(dirname, { withFileTypes: true }).filter(dirent => dirent.isDirectory());
     let scenarios = new Array();
     folders.forEach(folder => {
-        if(!folder.name.includes('git') && !folder.name.includes('node_modules')){
+        if(!folder.name.includes('git')){
             scenarios.push(folder.name);
         }
     });
