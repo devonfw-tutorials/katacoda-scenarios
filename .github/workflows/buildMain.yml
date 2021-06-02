@@ -1,4 +1,4 @@
-name: Publish 
+name: Publish
 
 on:
   pull_request: 
@@ -21,21 +21,29 @@ jobs:
           repository: devonfw-tutorials/tutorials
           path: playbooks
       
-      - uses: actions/setup-node@v2-beta
       - name: install TS
+        uses: actions/setup-node@v2-beta
         run: |
           cd compiler
           npm install typescript
       - name: npm install
+        uses: actions/setup-node@v2-beta
         run: 
-          cd compiler
           npm install
+
       - name: Checkout
         uses: actions/checkout@v2
         with:
           path: repo
+
+      - uses: actions/setup-node@v2-beta
+      - name: npm install
+        run: 
+          cd ../repo
+          npm install
+          
           
       - name: publish tutorials and courses $GITHUB_WORKSPACE
         run: | 
-          ode repo/publish.js $GITHUB_WORKSPACE
+          node repo/publish.js $GITHUB_WORKSPACE
           ls repo
