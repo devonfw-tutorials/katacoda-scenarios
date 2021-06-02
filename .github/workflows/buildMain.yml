@@ -1,8 +1,6 @@
 name: Publish 
 
 on:
-  repository_dispatch:
-    types: [dispatch-katacoda-scenarios]
   pull_request: 
     branch: [master]
     
@@ -27,15 +25,12 @@ jobs:
       - uses: actions/setup-node@v2-beta
       - name: install TS
         run: |
-        cd compiler
-        npm install typescript
-
-      
+          cd compiler
+          npm install typescript
       - name: npm install
         run: 
-        cd compiler
-        npm install
-
+          cd compiler
+          npm install
       - name: Checkout
         uses: actions/checkout@v2
         with:
@@ -43,5 +38,5 @@ jobs:
           
       - name: publish tutorials and courses $GITHUB_WORKSPACE
         run: | 
-        node repo/publish.js $GITHUB_WORKSPACE
-        ls repo
+          ode repo/publish.js $GITHUB_WORKSPACE
+          ls repo
