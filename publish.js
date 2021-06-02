@@ -14,7 +14,12 @@ let usedScenarios = new Array();
 let folderNames = new Array();
 
 function publish(){
+    console.log("Scenarios", SCENARIOS);
+    console.log("Playbook", PLAYBOOKS);
+    console.log("compiler", COMPILER);
     try{
+
+        
         const SPECIFIED_COURSES = getCourses(PLAYBOOKS);
         const SPECIFIED_SCENARIOS = getScenarios(PLAYBOOKS); 
         //create temp directories 
