@@ -4,7 +4,6 @@ on:
   pull_request: 
     branches:  [ master ]
     
-  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,13 +20,12 @@ jobs:
           repository: devonfw-tutorials/tutorials
           path: playbooks
       
+      - uses: actions/setup-node@v2-beta
       - name: install TS
-        uses: actions/setup-node@v2-beta
         run: |
           cd compiler
           npm install typescript
       - name: npm install
-        uses: actions/setup-node@v2-beta
         run: 
           npm install
 
