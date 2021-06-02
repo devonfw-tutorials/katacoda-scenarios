@@ -1,7 +1,6 @@
 const path = require('path');
 const fs = require('fs-extra');
 const child_process = require("child_process");
-const { createDecipher } = require('crypto');
 
 const SCENARIOS = path.join(process.argv[2], 'repo');
 const COMPILER = path.join(process.argv[2], 'compiler');
