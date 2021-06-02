@@ -32,6 +32,7 @@ function publish(){
         generateNewScenarios();
         
         //TODO UPDATE changed courses only
+    
         SPECIFIED_COURSES.forEach(course =>{
             createCourse(course);
         });
@@ -43,6 +44,7 @@ function publish(){
             }
         });
         
+        //Delete unused and newly generated tutorials 
         cleanUp();
         fs.copySync(TEMP_COURSES, SCENARIOS + "/.");
         fs.copySync(TEMP_FILES, SCENARIOS + "/.");
@@ -81,7 +83,7 @@ function updateCourseFiles(){
 function generateNewScenarios(){
     let cp = child_process.spawnSync(`bash buildRun.sh -e katacoda`, { shell: true, cwd: COMPILER, encoding: 'utf-8' });
     if(!fs.existsSync(path.join(COMPILER, 'build', 'output', 'katacoda'))) {
-        console.log(cp);
+        console.log("ERROR[generateNewScenarios]: "cp);
         return "";
     }
 }
@@ -138,6 +140,13 @@ function cleanUp(){
             console.log(scenario, "doesn't exist anymore in the tutorials repository." );
         }
     });
+
+    //TODO Filter only newly generated folders
+    ONLINE_COURSES.forEach(scenario => {
+        fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
+        console.log(scenario, "removed to replace it with build." );
+    });
+
 }
 
 
