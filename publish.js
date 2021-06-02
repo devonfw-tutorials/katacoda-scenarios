@@ -14,15 +14,13 @@ let usedScenarios = new Array();
 let folderNames = new Array();
 
 function publish(){
-    console.log("Scenarios", SCENARIOS);
-    console.log("Playbook", PLAYBOOKS);
-    console.log("compiler", COMPILER);
     try{
 
         
         const SPECIFIED_COURSES = getCourses(PLAYBOOKS);
         const SPECIFIED_SCENARIOS = getScenarios(PLAYBOOKS); 
-        //create temp directories 
+
+        //create directories to save temp courses and scenarios 
         createFolder(TEMP); 
         createFolder(TEMP_COURSES); 
         createFolder(TEMP_FILES);
@@ -31,7 +29,7 @@ function publish(){
         updateCourseFiles();
 
         //TODO GENERATE changed tutorials only
-        //generateNewScenarios();
+        generateNewScenarios();
         
         //TODO UPDATE changed courses only
         SPECIFIED_COURSES.forEach(course =>{
@@ -49,9 +47,6 @@ function publish(){
         fs.copySync(TEMP_COURSES, SCENARIOS + "/.");
         fs.copySync(TEMP_FILES, SCENARIOS + "/.");
 
-        const GENERATED_SCENARIOS = getScenarios(path.join(COMPILER, 'build', 'output', 'katacoda'));
-
-        console.log(GENERATED_SCENARIOS);
     }
 
     catch(e) {
@@ -74,6 +69,7 @@ function updateCourseFiles(){
     SPECIFIED_COURSES.forEach(course => {
         if(course.name.includes('-pathway')){
             fs.copyFile(path.join(PLAYBOOKS, course.name), path.join(SCENARIOS, course.name));
+            console.log(course.name, 'updated.' );
         }
     });
 }
@@ -107,13 +103,17 @@ function createCourse(coursefile){
             usedScenarios.push(scenario.course_id);
         }
     });
-    console.log(usedScenarios);
+
+    console.log(courseDirName, 'created in temporory directory.' );
+    
 }
 
 function createScenarios(scenario){
     const genScenariosDir = path.join(COMPILER, 'build', 'output', 'katacoda');
     folderNames.push(scenario);
     fs.copySync(path.join(genScenariosDir, scenario), path.join(TEMP_FILES, scenario));
+
+    console.log(scenario, 'created in temporory directory.' );
 }
 
 function cleanUp(){
@@ -123,13 +123,15 @@ function cleanUp(){
     ONLINE_COURSES.forEach(coursefile => {
         course = coursefile.replace('-pathway.json');
         if(! folderNames.includes(course)){
-            fs.removeSync(path.join(SCENARIOS, course) ,{ recursive: true })
+            fs.removeSync(path.join(SCENARIOS, course) ,{ recursive: true });
+            console.log(course, "doesn't exist anymore in the tutorials repository." );
         }
     });
 
     ONLINE_SCENARIOS.forEach(scenario => {
         if(! folderNames.includes(scenario)){
-            fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true })
+            fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
+            console.log(scenario, "doesn't exist anymore in the tutorials repository." );
         }
     });
 }
@@ -140,7 +142,7 @@ function getScenarios(dirname){
     let scenarios = new Array();
     folders.forEach(folder => {
         if(!folder.name.includes('git') && !folder.name.includes('node_modules')){
-            scenarios.push(folder.name)
+            scenarios.push(folder.name);
         }
     });
     return scenarios;

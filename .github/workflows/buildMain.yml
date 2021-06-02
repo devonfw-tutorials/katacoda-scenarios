@@ -26,30 +26,24 @@ jobs:
         run: |
           cd compiler
           npm install typescript
+          
       - name: npm install
         run: |
           cd compiler
           npm install
-      - name: run buildRun.sh
-        run: |
-          cd compiler
-          sh buildRun.sh -e katacoda
 
       - name: Checkout
         uses: actions/checkout@v2
         with:
           path: repo
 
-
       - uses: actions/setup-node@v2-beta
       - name: npm install
         run: |
           cd repo
           npm install
-          ls $GITHUB_WORKSPACE
           
           
       - name: publish tutorials and courses $GITHUB_WORKSPACE
         run: | 
           node repo/publish.js $GITHUB_WORKSPACE
-          ls repo
