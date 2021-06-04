@@ -132,14 +132,14 @@ function cleanUp(){
     ONLINE_COURSES.forEach(coursefile => {
         course = coursefile.replace('-pathway.json');
         if(! folderNames.includes(course)){
-            fs.removeSync(path.join(SCENARIOS, course) ,{ recursive: true });
+            fs.removeSync(path.join(SCENARIOS, course), { recursive: true });
             console.log(course, "doesn't exist anymore in the tutorials repository." );
         }
     });
 
     ONLINE_FOLDERS.forEach(scenario => {
         if(! folderNames.includes(scenario)){
-            fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
+            fs.removeSync(path.join(SCENARIOS, scenario), { recursive: true });
             console.log(scenario, "doesn't exist anymore in the tutorials repository." );
         }
     });
@@ -147,8 +147,10 @@ function cleanUp(){
     //TODO Filter only newly generated folders
     //ISSUE #25 #26
     ONLINE_FOLDERS.forEach(scenario => {
-        fs.removeSync(path.join(SCENARIOS, scenario) ,{ recursive: true });
-        console.log(scenario, "removed to replace it with build." );
+        if(fs.existsSync(path.join(SCENARIOS, scenario))){
+            fs.removeSync(path.join(SCENARIOS, scenario), { recursive: true });
+            console.log(scenario, "removed to replace it with build." );
+        }
     });
 
 
@@ -183,6 +185,7 @@ function createFolder(dirname){
         fs.removeSync(dirname); 
     }
     fs.mkdir(dirname);
+    console.log(dirname, "was created.");
 }
 
 publish();
