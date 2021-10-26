@@ -1,15 +1,12 @@
-name: CI
+name: Publish Tutorials and Courses
 
 on:
   repository_dispatch:
     types: [dispatch-katacoda-scenarios]
     
-  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
     steps:
       - name: choose random polling time
         id: randompoll
@@ -28,33 +25,45 @@ jobs:
           poll-interval-seconds: ${{ steps.randompoll.outputs.selected }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
+
       - name: Checkout tutorial-compiler
         uses: actions/checkout@v2
         with:
           repository: devonfw-tutorials/tutorial-compiler
+          path: compiler
       
       - name: Checkout playbooks
         uses: actions/checkout@v2
         with:
           repository: devonfw-tutorials/tutorials
-          path: playbooks
+          path: compiler/playbooks
       
+        
       - uses: actions/setup-node@v2-beta
-      
       - name: install TS
-        run: npm install typescript
-      
-      - name: npm install
-        run: npm install
+        run: |
+          cd compiler
+          npm install typescript
 
-      - name: run buildRun.sh
-        run: sh buildRun.sh -e katacoda -p ${{ github.event.client_payload.tutorial }}
+      - name: npm install
+        run: |
+          cd compiler
+          npm install
 
       - name: Checkout
         uses: actions/checkout@v2
         with:
           path: repo
+
+      - uses: actions/setup-node@v2-beta
+      - name: npm install
+        run: |
+          cd repo
+          npm install
           
-      - name: publish tutorials
-        run: bash repo/publishTutorials.sh
+          
+      - name: create tutorials and courses
+        run: node repo/publish.js $GITHUB_WORKSPACE
+      
+      - name: publish tutorials and courses
+        run: bash repo/publishScenariosAndCourses.sh
