@@ -38,7 +38,6 @@ do
 done
 
 git fetch
-git pull
 cp -r build/output/katacoda/*/ repo/
 cd repo/
 git add -A
